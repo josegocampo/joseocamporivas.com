@@ -5,10 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h1> Jose Ocampo Rivas Site</h1>
-     <h1> Jose Ocampo Rivas Site</h1>
-     <h1> Jose Ocampo Rivas Site</h1>
-     <h1> Jose Ocampo Rivas Site</h1>
+     <h1> NEW PAGE FOR JOSE OCAMPO </h1> 
     </div>
   );
 }
