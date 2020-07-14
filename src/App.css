@@ -1,12 +1,21 @@
 
   
-.App {
+.essay {
     margin: 0 auto;
     text-align: justify;
     height: 1500px;
-
-    
-  }
+    animation: fadeInAnimation ease 5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 
   h1{
     font-size: 22px;
@@ -15,18 +24,55 @@
   }
 
 .color-mode{
-  height: 20px;
-  width: 20px;
+  height: 10px;
+  width: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 550;
   font-size: 0.6rem;
   cursor: pointer;
+  border-radius: 5px;
 }
-
+.clr{
+  width:20px;
+  cursor: pointer;
+}
 .me{
 width: 150px;
+}
+
+.me2{
+  width: 100px;
+  }
+  
+
+.logo{
+  width: 40px;
+  margin-left: 120px;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: break-spaces; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 

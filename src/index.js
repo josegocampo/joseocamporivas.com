@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Nav from '../src/components/Nav';
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-  
-    <App />
-   
-  </React.StrictMode>,
+  <Router>
+    <Nav/>
+    <App/>
+  </Router>,
   document.getElementById('root')
 );
 
