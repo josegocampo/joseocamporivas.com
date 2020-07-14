@@ -65,6 +65,7 @@ const Navalogo = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-right: 200px;
+  
   `;
 
   
@@ -77,7 +78,7 @@ height: 50px;
 const NavaLinks = styled.div`
 display: flex;
 justify-content: space-between;
-width: 600px;
+width: 700px;
 height: 60px;
 margin: 0 auto;
 padding-right: 150px;
@@ -89,7 +90,7 @@ const NavATags = styled.div`
 display: flex;
 flex-direction: row;
 align-items: flex-end;
-margin-left: 60px;
+margin-left: 100px;
 
 `;
 
