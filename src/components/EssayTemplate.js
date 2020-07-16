@@ -2,7 +2,7 @@
 import { jsx, css } from '@emotion/core'
 import React, { useState } from 'react';
 import '../App.css';
-import newme from '../images/newme.png';
+import mejor from '../images/mejorcalidad.png';
 import negro from '../images/black.png';
 import verde from '../images/green.png';
 import sepia from '../images/sepia.png';
@@ -57,6 +57,10 @@ const white = css({
 
 const none = css({
   display: 'none'
+})
+
+const tituloRojo =css({
+  background: 'red'
 })
 
 
@@ -128,15 +132,15 @@ else if (color === 'sepia'){
                   
             <div className="text" css={{
                   margin: '0 auto',
-                  fontSize: 13,
-                  lineHeight: 1.4,
+                  fontSize: 14,
+                  lineHeight: 1.5,
                   width: '72%',
                   fontWeight: 300,
                   marginLeft: '10%',
                   fontWeight: 500
                 
                  }}>
-<img src={newme} className="me2"/>
+<img src={mejor} className="me2"/>
               <h1>TITULO DEL TEXTO</h1>
 
               

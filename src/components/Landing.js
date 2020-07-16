@@ -2,7 +2,7 @@
 import { jsx, css } from '@emotion/core'
 import React from 'react'
 import '../App.css';
-import newme from '../images/newme.png';
+import yoback from '../images/yoback.png';
 import Typing from 'react-typing-animation';
 import verde from '../images/green.png'
  
@@ -36,7 +36,9 @@ function Landing(){
       })
 
     const img = css({
-        width: 150
+        width: 150,
+      
+        borderRadius: '50%'
     })
 
     const presentacion = css({
@@ -77,7 +79,7 @@ function Landing(){
     return(
         <div css={cuerpo} className="land">
            <div css={top}>
-               <div css={topleft}><img src={newme} css={img}/><div css={presentacion} className="about_me">        <Typing>
+               <div css={topleft}><img src={yoback} css={img}/><div css={presentacion} className="about_me">        <Typing>
     <span>Hola!<Typing.Delay ms={1000} /><br/><br/> Soy Jose Ocampo,</span><Typing.Delay ms={500} /><span>software developer</span> <Typing.Backspace count={19} /><Typing.Delay ms={1000} /><span> programador<Typing.Delay ms={200} />, abogado, jugador de <Typing.Backspace count={12} /> ex jugador de poker,<Typing.Delay ms={200} /><Typing.Delay ms={200} /> intento de pixel artist, etc.</span><br/><br/><span>Gracias por visitar!<br/><br/> Si no sabes que ver, haz click en el dado >>> <img src={verde} className="dado"/> </span>
  
   </Typing>

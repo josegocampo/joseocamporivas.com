@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Spectral&display=swap'); */
 
 
@@ -10,7 +10,7 @@ body {
   background-size: cover;
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 62.5%;
 
 }

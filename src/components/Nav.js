@@ -16,19 +16,20 @@ const Nav = props => {
         
       
               <NavaLinks>
-  
+   
               <Link to ='/'><Navalogo><img  className='logo' src={logo}/> </Navalogo></Link>
             
             <NavATags>
-                 <Router>
-                        <Link to="/form"><Nava>Ensayos </Nava></Link>
-                        <Link to="/"><Nava>About</Nava></Link>
-                        <Link to="/"><Nava>Proyectos</Nava></Link>
-                        <Link to="/"><Nava>Contacto</Nava> </Link>
-                 </Router>
+          
+                        <Link to="/essay"><Nava>Ensayos </Nava></Link>
+                        <Link to="/about"><Nava>About</Nava></Link>
+                        <Link to="/proyects"><Nava>Proyectos</Nava></Link>
+                        <Link to="/contact"><Nava>Contacto</Nava> </Link>
+           
               
                  
             </NavATags>
+      
           
               </NavaLinks>  
            
@@ -45,13 +46,13 @@ export default Nav;
 
 const Navigator = styled.div`
   height: 50px;
-  padding-top: 20px;
+
   padding-bottom: 20px;
   display: flex;
   align-items: center;
   font-size: 0.7rem;
   font-weight: 600;
-  border-bottom: 3px solid #131529;
+
 
   
   
