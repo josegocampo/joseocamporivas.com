@@ -1,102 +1,128 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
 import React from 'react'
-import '../App.css';
-import yoback from '../images/yoback.png';
+import styled from "styled-components";
 import Typing from 'react-typing-animation';
-import verde from '../images/green.png'
+import { Link } from "react-router-dom";
+import {device} from './utils/MQs'
+import '../App.css';
 import twitter from '../images/twitter.png' 
 import talk from '../images/talk.png' 
 import yt from '../images/yt.png' 
+import yoback from '../images/yoback.png';
 
 function Landing(){
 
-    const cuerpo = css({
-        margin: '0 auto',
-        display: 'flex',
-        flexDirection: 'column',
-        width: 650,
-        alignItems: 'flex-start',
-        paddingLeft: 10
-      })
+    const Cuerpo = styled.div`
+        margin: 0 auto;
+        display: flex,
+        flex-direction: column;
+        max-width: 700px;
+        align-items: flex-start;
+
+        @media ${device.mobileS}{
+            max-width: 320px;
+            background: red;
+        }
+    `
+
+    const Topleft = styled.div`
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        padding-top: 10px
+      `
+
+    const Presentacion = styled.div`
+        margin: 0 auto;
+        flex-direction: column;
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content : flex-start;
+        padding-left: 20px;
+      `
+
+      const Presentacion2 = styled.div`
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+        letter-spacing: 1.5px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content : flex-start;
+        padding-left: 20px;
+        width: 83%
+      `
 
 
-    const topleft = css({
-        margin: '0 auto',
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        textAlign: 'left',
-        justifyContent: 'space-between',
-        paddingTop: 25
-      })
+    const Images = styled.div`
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 33%;
+        margin-right: 50px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    `
 
-    const presentacion = css({
-        margin: '0 auto',
-        flexDirection: 'column',
-        fontSize: '0.9rem',
-        fontWeight: 500,
-        lineHeight: '1.2rem',
-        letterSpacing: 1,
-        display: 'flex',
-        alignItems: 'center',
-        marginRight: 20,
-        width: '60%',
-        display: 'flex',
-        flexDirection: 'column',
-        textAlign: 'left',
-        justifyContent : 'flex-start',
-      })
+    const Img = styled.img`
+        border-radius: 50%;
+        width: 200px;
+    `
 
-    const images = css({
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'flex-start',
-        width: '36%',
-        marginTop: 50,
-        marginRight: 50
-    })
-
-    const img = css({
-        borderRadius: '50%',
-        width: 200,
-    })
-
-    const icons = css({
-        margin: '0 auto',
-        width: 140,
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        marginLeft: 275,
-        marginTop: 130
+    const Icons = styled.div`
+        margin: 0 auto;
+        width: 140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        marginLeft: 275px;
+        margin-top: 10px;
        
-    })
+    `
     
-    const icon = css({
-        width: 30,
-        marginTop: 20,
-        borderRadius: 5,
-        '&:hover': {cursor: 'pointer'}
-    })
+    const Icon = styled.img`
+        width: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+        &:hover: {cursor: pointer}
+    `
 
     
 
       
     return(
-        <div css={cuerpo} className="land">
-       
-               <div css={topleft}>
-                    <div css={presentacion} className="about_me"> 
-                        <h1 css={{fontSize: '3.5rem', width: '100%', }} className="about_me">Hola!</h1><br/>
+        <Cuerpo>
+               <Topleft>
+                    <Presentacion className="about_me"> 
+                        <h1 css={{fontSize: '2.8rem', width: '100%', }} className="about_me">Hola, soy Jose</h1>
                         
-                            Soy Jose Ocampo, software developer, abogado, ex jugador de poker,
-                            intento de pixel artist, etc.<br/><br/>
-                            
-                            Me encanta escribir, y siempre estoy encontrando cosas nuevas en tecnologia, ya sea software, nuevos descubrimientos y tambien otros temas.<br/><br/>
-                            
-                            Si quieres unirte a una comunidad de mas de 150 personas que reciben actualizaciones cada dos semanas sobre estos temas y mas, entonces no dudes en suscribirte a mi newsletter.<br/><br/>
-                           
+                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado y previamente jugador profesional de poker.</p>
+                                
+                                <p>
+                                   En este sitio escribo sobre las cosas que encuentro interesantes y me entretienen, 
+                                        como tecnologia, herramientas de 
+                                    productividad, startups, programacion, ciencias, etc.
+                                </p>
+                             </Presentacion>
+{/* 
+                            Paso gran parte del tiempo investigando estos temas y practicando con herramientas relacionadas a ellos, puedes seguirme en twitter ya que la
+                            mayoría del tiempo comparto lo que estoy haciendo. */}
+
                             
                         {/* <Typing>
                             <span> Soy Jose Ocampo,</span><Typing.Delay ms={500} /><span>software developer</span> <Typing.Backspace count={19} />
@@ -105,38 +131,53 @@ function Landing(){
                             <img src={verde} className="dado"/> 
                             </span>
                         </Typing> */}
-                    </div>
-                    <div css={images}>
-                        <img src={yoback} css={img}/>
+                   
+                    <Images>
+                        <Img img src={yoback}/>
                        
-                    </div>
-                </div>
+                    </Images>
+                </Topleft>
+                <Presentacion2 className="about_me">
+                                <p>
+                                    Si eres una persona curiosa y te interesan estos temas, deberias suscribirte a las ya
+                                    mas de 100 personas en mi <Link to="/newsletter" css={{textDecoration: 'none', color: '#7697a7', '&:hover': {color: '#ff8989'}}}>
+                                    newsletter</Link> "Nombre de Newsletter".
+                                </p>
+                                
+                                Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana<br/><br/>
+                            </Presentacion2>
                         
-                <div css={{marginTop: 50, display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%'}}>
-                     <input type='text' placeholder="   Tu mejor email..." css={{width: '50%', borderRadius: 5, height: 23, border: '1px solid darkgrey', marginRight: '7%', padding: 8, paddingLeft: 15, textAlign: 'left'}}/><button css={{textDecoration: 'none', color: 'white', background: '#637abb', height: 40, width: '25%', border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer'}}}>Suscribete!</button>
+                <div css={{marginTop: 20, display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
+                     <input type='text' placeholder="   Tu mejor email..." css={{width: '50%', borderRadius: 5, height: 23, border: '1px solid darkgrey', marginRight: '7%', 
+                     padding: 8, paddingLeft: 15, textAlign: 'left'}}/>
+                     <button css={{textDecoration: 'none', color: 'white', background: '#637abb', height: 40, width: '25%', border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer'}}}>Suscribete!</button>
             </div>
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
-                <div css={{width: '50%', 
+                <div css={{width: '70%', 
                            marginTop: 20, 
                            fontSize: '0.9rem',
                            fontWeight: 500,
-                           lineHeight: '1.8rem',
+                           lineHeight: '2rem',
                            letterSpacing: 1,
-            }} className="about_me">Disfruta,<br/>
+                           paddingLeft: 20
+            }} className="about_me">Espero lo disfruten,<br/>
                 Jose </div>
             </div>
-            <div css={icons}>
-                                <img src={twitter} css={icon}/>
-                                <img src={yt} css={icon}/>
-                                <img src={talk} css={icon}/>
-                           </div>
+            <Icons>
+                                <Icon src={twitter}/>
+                                <Icon src={yt}/>
+                                <Icon src={talk}/>
+                           </Icons>
 
-            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 60, textAlign: 'center', fontSize: '0.7rem', paddingTop: 20 }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
+            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20 }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
 
-        </div>
+        </Cuerpo>
         
     )
 }
 
 
 export default Landing;
+
+
