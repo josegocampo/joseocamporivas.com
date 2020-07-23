@@ -3,11 +3,7 @@ import { jsx, css } from '@emotion/core'
 import React, { useState } from 'react';
 import '../App.css';
 import mejor from '../images/mejorcalidad.png';
-import negro from '../images/black.png';
-import verde from '../images/green.png';
-import sepia from '../images/sepia.png';
-import blanco from '../images/white.png';
-
+import {ble} from './tryemo'
 
 function EssayTemplate() {
 
