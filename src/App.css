@@ -1,11 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Rowdies&display=swap');
+
+
 
 
 .essay {
@@ -57,13 +52,14 @@ width: 150px;
 .dado{
 width: 20px;
 }
-.logo{
-  width: 40px;
+.logo {
+width: 40px;
+margin-bottom: 20px;
 }
 
 .about_me{
   /* font-family: 'PT Sans', sans-serif; */
-  color: #333;
+  color: rgb(35, 48, 68);
   font-smooth: never;
   -webkit-font-smoothing : none; 
 }

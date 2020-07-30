@@ -17,7 +17,7 @@ function Landing(){
         margin: 0 auto;
         display: flex,
         flex-direction: column;
-        max-width: 700px;
+        max-width: 730px;
         align-items: flex-start;
 
         @media ${device.mobileS}{
@@ -37,12 +37,13 @@ function Landing(){
       `
 
     const Presentacion = styled.div`
+        color: rgb(84, 89, 119);
         margin: 0 auto;
         flex-direction: column;
         font-size: 0.9rem;
         font-weight: 500;
         line-height: 1.5rem;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.1px;
         display: flex;
         align-items: center;
         margin-right: 20px;
@@ -55,10 +56,11 @@ function Landing(){
       `
 
       const Presentacion2 = styled.div`
+        color: rgb(84, 89, 119);
         font-size: 0.9rem;
         font-weight: 500;
-        line-height: 1.6rem;
-        letter-spacing: 1.5px;
+        line-height: 1.5rem;
+        letter-spacing: 1.1px;
         margin-right: 20px;
         display: flex;
         flex-direction: column;
@@ -140,21 +142,24 @@ function Landing(){
                 <Presentacion2 className="about_me">
                                 <p>
                                     Si eres una persona curiosa y te interesan estos temas, deberias suscribirte a las ya
-                                    mas de 100 personas en mi <Link to="/newsletter" css={{textDecoration: 'none', color: '#7697a7', '&:hover': {color: '#ff8989'}}}>
+                                    mas de 100 personas en mi <Link to="/newsletter" css={{textDecoration: 'none', color: 'rgb(0, 175, 240)', '&:hover': {color: '#e89049'}}}>
                                     newsletter</Link> "Nombre de Newsletter".
                                 </p>
                                 
-                                Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana<br/><br/>
+                                <p>Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana</p><br/>
                             </Presentacion2>
                         
-                <div css={{marginTop: 20, display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
-                     <input type='text' placeholder="   Tu mejor email..." css={{width: '50%', borderRadius: 5, height: 23, border: '1px solid darkgrey', marginRight: '7%', 
+                <div css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
+                     <input type='text' placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
+                     fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left'}}/>
-                     <button css={{textDecoration: 'none', color: 'white', background: '#637abb', height: 40, width: '25%', border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer'}}}>Suscribete!</button>
+                     <button css={{ color: 'white', background: '#e89049', height: 40, width: '20%', fontFamily: 'Merriweather', fontWeight: 600, letterSpacing: 1.3,
+                     border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
+                         Suscribete!</button>
             </div>
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
-                           marginTop: 20, 
+                           marginTop: 30, 
                            fontSize: '0.9rem',
                            fontWeight: 500,
                            lineHeight: '2rem',

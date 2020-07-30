@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu'
-import logo from '../images/logo.png'
+import logo3 from  '../images/logo3.png'
 import '../App.css';
 import {device} from './utils/MQs'
 import talk from '../images/talk.png' 
@@ -21,14 +21,15 @@ const Nav = props => {
       <Navigator>
           <NavaLinks>
   
-              <Link to ='/'><Navalogo><img src={logo} className='logo'/></Navalogo></Link>
+              <Link to ='/'><Navalogo><img src={logo3} className='logo'/></Navalogo></Link>
               <NavATags>
-                  <Link to="/about"><Nava>About</Nava></Link>
+               
+                  <Link to="/course"><Nava>Cursos </Nava></Link>
                   <Link to="/essay"><Nava>Ensayos </Nava></Link>
-                  <Link to="/articles"><Nava>Articulos</Nava></Link>
-                  <Link to="/newsletter"><Nava>Newsletter</Nava> </Link>
+                  <Link to="/garden"><Nava>Jardin Digital</Nava></Link>
                   <Link to="/proyects"><Nava>Proyectos</Nava></Link>
-                  <Link to="/contact"><Nava>Hablemos</Nava> </Link>
+                  <Link to="/about"><Nava>Sobre mi</Nava></Link>
+                
               </NavATags>
         
             
@@ -59,12 +60,11 @@ const Navigator = styled.div`
   height: 60px;
   padding-bottom: 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 0.8rem;
   font-weight: 600;
-  width: 650px;
-  
-
+  width: 640px;
+  padding-right: 40px;
 `
 
 
@@ -75,7 +75,7 @@ display: flex;
 justify-content: space-between;
 width: 100%;
 height: 60px;
-align-items: flex-end;
+align-items: center;
 padding-top: 25px;
 padding-bottom: 15px;
 `
@@ -95,6 +95,7 @@ padding-bottom: 15px;
 `
 
 const Navalogo = styled.div`
+
   `
 
 const NavATags = styled.div`
@@ -102,7 +103,7 @@ display: flex;
 flex-direction: row;
 justify-content: flex-end;
 margin-bottom: 3px;
-margin-right: 0%;
+margin-left: 0%;
 
 @media ${device.tablet}{
   display: none}
@@ -112,10 +113,10 @@ margin-right: 0%;
 const Nava = styled.div`
 letter-spacing: 1.1px;
 text-transform: none;
-margin-right: 25px;
-color: #7697a7;
+margin-left: 25px;
+color: rgb(102 184 222);
   &:hover {
-    color: #ff8989;
+    color: #e89049;
 
   }
 `
