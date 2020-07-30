@@ -2,21 +2,55 @@
 import { jsx, css } from '@emotion/core'
 import React, { useState } from 'react';
 import '../App.css';
+import {device} from './utils/MQs'
 import mejor from '../images/mejorcalidad.png';
-import {ble} from './tryemo'
+import styled from "styled-components";
 
 function EssayTemplate() {
 
 const [color, setColor] = useState('white')
 
-const sides = css({
-  margin: '0 auto',
-  display: 'flex',
-  flexDirection: 'row',
-  paddingTop: 40,
-  width: 800,
-  paddingLeft: 40
-})
+const Bod = styled.div`
+margin: 0 auto;
+max-width: 730px;
+@media ${device.tablet}{
+  max-width: 628px;
+  background: red;
+}
+@media ${device.mobileL}{
+  max-width: 468px;
+  background: red;
+}
+@media ${device.mobileM}{
+  max-width: 372px;
+  background: red;
+}
+@media ${device.mobileS}{
+  max-width: 365px;
+  background: red;
+}
+`
+
+const Sides = styled.div`
+  margin: 0 auto;
+  display: flex;
+  flexDirection: row;
+  paddingTop: 40px;
+  paddingLeft: 5%;
+  width: 100%;
+  @media ${device.tablet}{
+    max-width: 628px;
+  }
+  @media ${device.mobileL}{
+    max-width: 468px;
+  }
+  @media ${device.mobileM}{
+    max-width: 372px;
+  }
+  @media ${device.mobileS}{
+    max-width: 365px;
+  }
+`
 
 const buttons = css({
   textAlign: 'center',
@@ -27,8 +61,9 @@ const buttons = css({
   position: 'fixed',
   zIndex: 1,
   height: 40,
-  marginTop: 20,
-  width: 70
+  marginTop: 170,
+  paddingLeft:20,
+  maxWidth: 70,
 })
 
 const green = css({
@@ -113,9 +148,9 @@ else if (color === 'sepia'){
 
 
   return (
-<div className="App" css={colorMode}>
+<Bod className="App" css={colorMode}>
 
-  <div className ="left-right" css={sides}>
+  <Sides className ="left-right">
     
         <div css={buttons}>
           {color === 'white'? <div css={noneWhite}/> : <div className="color-mode" onClick={handleWhite} css={white} ><div></div></div>}
@@ -130,7 +165,7 @@ else if (color === 'sepia'){
                   margin: '0 auto',
                   fontSize: 14,
                   lineHeight: 1.5,
-                  width: '72%',
+                  width: '85%',
                   fontWeight: 300,
                   marginLeft: '10%',
                   fontWeight: 500
@@ -191,9 +226,10 @@ else if (color === 'sepia'){
     
   </div>
   
-  </div>
-  
-  </div>
+  </Sides>
+  <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
+            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20, paddingBottom: 40  }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+  </Bod>
   
     
       

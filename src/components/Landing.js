@@ -30,10 +30,13 @@ function Landing(){
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        align-items: center;
         text-align: left;
-        justify-content: space-between;
-        padding-top: 10px
+        align-items: center;
+        justify-content: space-around;
+        @media ${device.mobileL}{
+            flex-direction: column-reverse;
+            align-items: flex-start;
+          }
       `
 
     const Presentacion = styled.div`
@@ -42,17 +45,20 @@ function Landing(){
         flex-direction: column;
         font-size: 0.9rem;
         font-weight: 500;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
         letter-spacing: 1.1px;
         display: flex;
         align-items: center;
-        margin-right: 20px;
         width: 66%;
         display: flex;
         flex-direction: column;
         text-align: left;
-        justify-content : flex-start;
+        justify-content : flex-end;
         padding-left: 20px;
+        @media ${device.mobileL}{
+            width: 90%;
+          }
+
       `
 
       const Presentacion2 = styled.div`
@@ -65,9 +71,13 @@ function Landing(){
         display: flex;
         flex-direction: column;
         text-align: left;
-        justify-content : flex-start;
         padding-left: 20px;
-        width: 83%
+        width: 71%;
+        margin-top: 5px;
+        @media ${device.mobileL}{
+            width: 90%;
+            padding-left: 30px;
+          }
       `
 
 
@@ -76,14 +86,19 @@ function Landing(){
         flex-direction: column;
         align-items: flex-start;
         width: 33%;
-        margin-right: 50px;
-        margin-top: 60px;
-        margin-bottom: 20px;
+        @media ${device.mobileL}{
+            width: 150px;
+            margin: 0 auto;
+          }
     `
 
     const Img = styled.img`
         border-radius: 50%;
         width: 200px;
+        @media ${device.tablet}{
+            width: 150px;
+            
+          }
     `
 
     const Icons = styled.div`
@@ -104,19 +119,34 @@ function Landing(){
         &:hover: {cursor: pointer}
     `
 
+    const Titulo = styled.div`
+    font-size: 2.8rem;
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 20px;
     
+    @media ${device.tablet}{
+        font-size: 2.8rem;
+        
+      }
+      @media ${device.mobileM}{
+        font-size: 2.2rem;
+      }
+      
+`
+
+
 
       
     return(
         <Cuerpo>
+            <Titulo>Hola, soy Jose</Titulo>
                <Topleft>
                     <Presentacion className="about_me"> 
-                        <h1 css={{fontSize: '2.8rem', width: '100%', }} className="about_me">Hola, soy Jose</h1>
-                        
-                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado y previamente jugador profesional de poker.</p>
+                       
+                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado y previamente jugador profesional de poker. <br/><br/>
                                 
-                                <p>
-                                   En este sitio escribo sobre las cosas que encuentro interesantes y me entretienen, 
+                               En este sitio escribo sobre las cosas que encuentro interesantes y me entretienen, 
                                         como tecnologia, herramientas de 
                                     productividad, startups, programacion, ciencias, etc.
                                 </p>
@@ -140,20 +170,20 @@ function Landing(){
                     </Images>
                 </Topleft>
                 <Presentacion2 className="about_me">
-                                <p>
+                                <div css={{ height: '50%'}}>
                                     Si eres una persona curiosa y te interesan estos temas, deberias suscribirte a las ya
                                     mas de 100 personas en mi <Link to="/newsletter" css={{textDecoration: 'none', color: 'rgb(0, 175, 240)', '&:hover': {color: '#e89049'}}}>
-                                    newsletter</Link> "Nombre de Newsletter".
-                                </p>
+                                    newsletter</Link> "Nombre de Newsletter".<br/><br/>
                                 
-                                <p>Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana</p><br/>
+                                
+                              Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana</div><br/>
                             </Presentacion2>
                         
                 <div css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
                      <input type='text' placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left'}}/>
-                     <button css={{ color: 'white', background: '#e89049', height: 40, width: '20%', fontFamily: 'Merriweather', fontWeight: 600, letterSpacing: 1.3,
+                     <button css={{ color: 'white', background: '#e89049', height: 40, minWidth: 100, fontFamily: 'Merriweather', fontWeight: 600, letterSpacing: 1.3,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
                          Suscribete!</button>
             </div>
@@ -164,7 +194,7 @@ function Landing(){
                            fontWeight: 500,
                            lineHeight: '2rem',
                            letterSpacing: 1,
-                           paddingLeft: 20
+                           paddingLeft: 30
             }} className="about_me">Espero lo disfruten,<br/>
                 Jose </div>
             </div>
@@ -174,8 +204,8 @@ function Landing(){
                                 <Icon src={talk}/>
                            </Icons>
 
-            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
-            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20 }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+                           <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
+            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20}}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
 
         </Cuerpo>
         

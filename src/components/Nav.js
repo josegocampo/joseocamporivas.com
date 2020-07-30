@@ -34,7 +34,7 @@ const Nav = props => {
         
             
           </NavaLinks>  
-
+{/* 
          <NavaBurger> 
            <Menu right>
               <a id="home" className="menu-item" href="/">Home</a>
@@ -44,7 +44,7 @@ const Nav = props => {
           </Menu>
 
         
-         </NavaBurger>
+         </NavaBurger> */}
         </Navigator>
                 
          
@@ -63,8 +63,23 @@ const Navigator = styled.div`
   align-items: flex-start;
   font-size: 0.8rem;
   font-weight: 600;
-  width: 640px;
-  padding-right: 40px;
+  max-width: 640px;
+  padding-right: 5px;
+  
+  @media ${device.tablet}{
+    font-size: 0.7rem;
+    padding-left: 10px;
+  }
+  @media ${device.mobileL}{
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  @media ${device.mobileS}{
+    font-size: 0.6rem;
+  }
+  }
+  
+ 
 `
 
 
@@ -78,45 +93,54 @@ height: 60px;
 align-items: center;
 padding-top: 25px;
 padding-bottom: 15px;
-`
-const NavaBurger = styled.div`
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-width: 100%;
-height: 60px;
-align-items: flex-end;
-padding-top: 25px;
-padding-bottom: 15px;
 
-@media ${device.laptop}{
-  display: none}
-  
+@media ${device.mobileL}{
+  flex-direction: column;
+  padding-top: 5px;
+}
+
 `
+// const NavaBurger = styled.div`
+// margin: 0 auto;
+// display: flex;
+// justify-content: space-between;
+// width: 100%;
+// height: 60px;
+// align-items: flex-end;
+// padding-top: 25px;
+// padding-bottom: 15px;
+
+// @media ${device.tablet}{
+//   font-size: 0.7rem;
+  
+// }
+  
+// `
 
 const Navalogo = styled.div`
-
   `
 
 const NavATags = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
-margin-bottom: 3px;
-margin-left: 0%;
-
-@media ${device.tablet}{
-  display: none}
-  
+margin-bottom: 3px;  
 `
 
 const Nava = styled.div`
-letter-spacing: 1.1px;
+letter-spacing: 0.9px;
 text-transform: none;
-margin-left: 25px;
+margin-left: 15px;
 color: rgb(102 184 222);
   &:hover {
     color: #e89049;
-
   }
+  @media ${device.mobileL}{
+    margin-left: 10px;
+  }
+
+  @media ${device.mobileL}{
+    
+  }
+
 `
