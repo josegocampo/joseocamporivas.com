@@ -141,7 +141,7 @@ function Landing(){
       
     return(
         <Cuerpo>
-            <Titulo>Hola, soy Jose</Titulo>
+            <Titulo>Jose Ocampo</Titulo>
                <Topleft>
                     <Presentacion className="about_me"> 
                        
