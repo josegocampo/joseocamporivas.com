@@ -12,23 +12,6 @@ const [color, setColor] = useState('white')
 
 const Bod = styled.div`
 margin: 0 auto;
-max-width: 730px;
-@media ${device.tablet}{
-  max-width: 628px;
-  background: red;
-}
-@media ${device.mobileL}{
-  max-width: 468px;
-  background: red;
-}
-@media ${device.mobileM}{
-  max-width: 372px;
-  background: red;
-}
-@media ${device.mobileS}{
-  max-width: 365px;
-  background: red;
-}
 `
 
 const Sides = styled.div`
@@ -37,7 +20,7 @@ const Sides = styled.div`
   flexDirection: row;
   paddingTop: 40px;
   paddingLeft: 5%;
-  width: 100%;
+  max-width: 730px;
   @media ${device.tablet}{
     max-width: 628px;
   }
@@ -148,7 +131,7 @@ else if (color === 'sepia'){
 
 
   return (
-<Bod className="App" css={colorMode}>
+<Bod className="App" css={colorMode} >
 
   <Sides className ="left-right">
     
