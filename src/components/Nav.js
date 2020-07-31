@@ -76,6 +76,7 @@ const Navigator = styled.div`
   }
   @media ${device.mobileS}{
     font-size: 0.6rem;
+    padding-left: 2px;
   }
   }
   
@@ -139,8 +140,8 @@ color: rgb(102 184 222);
     margin-left: 10px;
   }
 
-  @media ${device.mobileL}{
-    
+  @media ${device.mobileS}{
+    margin-left: 7px;
   }
 
 `
