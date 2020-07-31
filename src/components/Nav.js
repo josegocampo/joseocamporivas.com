@@ -24,7 +24,7 @@ const Nav = props => {
               <Link to ='/'><Navalogo><img src={logo3} className='logo'/></Navalogo></Link>
               <NavATags>
                
-                  <Link to="/course"><Nava>Curso </Nava></Link>
+                  <Link to="/course"><Nava>Cursos </Nava></Link>
                   <Link to="/essay"><Nava>Ensayos </Nava></Link>
                   <Link to="/garden"><Nava>Jardin Digital</Nava></Link>
                   <Link to="/proyects"><Nava>Proyectos</Nava></Link>

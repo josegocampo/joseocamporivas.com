@@ -114,6 +114,7 @@ function Landing(){
     
     const Icon = styled.img`
         width: 30px;
+        height: 30px;
         margin-top: 20px;
         border-radius: 5px;
         &:hover: {cursor: pointer}
