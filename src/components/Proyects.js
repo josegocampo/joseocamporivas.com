@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import wip from  '../images/wip.png'
 import '../App.css';
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 
@@ -34,10 +34,8 @@ const Tutto = styled.div`
   
    <div>
         <Tutto>
-             <Titulo>Work in progress</Titulo>  
-             <Wip src={wip}/>
-             <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
-            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20, paddingBottom: 40  }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+             <Titulo>Proyectos</Titulo>  
+              <h2><Link to="/cgol">Conways Game of Life</Link></h2>
         </Tutto>
    </div>
                 

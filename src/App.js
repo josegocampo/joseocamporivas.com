@@ -8,6 +8,7 @@ import Garden from './components/Garden'
 import About from './components/About'
 import Proyects from './components/Proyects'
 import Course from './components/Course'
+import Cgol from './components/Cgol'
 
 
 function App(){
@@ -25,6 +26,7 @@ return(
                                         <Route exact path="/garden" component={Garden} />
                                         <Route exact path="/course" component={Course} />
                                         <Route exact path="/proyects" component={Proyects} />
+                                        <Route exact path="/cgol" component={Cgol} />
                                         <Route exact path="/about" component={About} />
                              </Switch>
                         
