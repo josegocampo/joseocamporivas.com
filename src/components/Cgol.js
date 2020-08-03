@@ -3,7 +3,7 @@ import produce from 'immer';
 import '../App.css';
 import styled from "styled-components";
 
-let rowNum = 25
+let rowNum = 35
 let colNum = 50
 
 const possibleNeighbours = [
@@ -26,13 +26,17 @@ const Cgol = () => {
 
     const Orden = styled.div`
     margin: 0 auto;
-    width: 860px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     `
     const Tittle = styled.div`
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: space-around;
+    color: #ff7575;
     `
     
     const Buttons = styled.div`
@@ -45,10 +49,10 @@ const Cgol = () => {
     `
     
     const Button = styled.button`
-    width: 100px; 
-    height: 40px;
-    border: 1px solid grey;
-    background: #f5f5f5;
+    width: 80px; 
+    height: 30px;
+    border: 1px solid #ffa8ff;
+    background: #bbdcff;
     color: black;
     border-radius: 5px;
     font-weight: 600;
@@ -120,9 +124,7 @@ return (
   <Orden> 
       
      <Tittle>
-          <h1>C</h1><h1>O</h1><h1>N</h1><h1>W</h1><h1>A</h1><h1>Y</h1><h1>'</h1><h1>S</h1>
-      <h1>G</h1><h1>A</h1><h1>M</h1><h1>E</h1>    <h1>O</h1><h1>F</h1>
-      <h1>L</h1><h1>I</h1><h1>F</h1><h1>E</h1>
+         <h1>Conway's Game of Life</h1>
      </Tittle>
     <div className="grid">
 
@@ -163,8 +165,8 @@ return (
       </Button>
       <Button onClick={() => resetStuff()} >Reset</Button>
       <Button onClick={() => setNest(randomRows)}>Azar</Button>
-      <Button onClick={() => speed > 4000 ? null : setSpeed(speed + 200)}>+ Lento</Button>
-      <Button onClick={() => speed < 300 ? null : setSpeed(speed - 200)}>+ Rapido</Button>
+      <Button onClick={() => speed > 4000 ? null : setSpeed(speed + 200)}>+Lento</Button>
+      <Button onClick={() => speed < 300 ? null : setSpeed(speed - 200)}>+Rapido</Button>
     </Buttons>
 
   </Orden>

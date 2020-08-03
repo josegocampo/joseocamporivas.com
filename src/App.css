@@ -107,11 +107,8 @@ margin-bottom: 20px;
   
 .grid{
   margin: 0 auto;
-  width: 800px;
-  border: 2px solid black;
   margin-top: 30px;
   background: black;
-
 }
 .rows{
   display: flex;
@@ -122,8 +119,8 @@ margin-bottom: 20px;
 .dead{
   display:flex;
   flex-direction: column;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background: black;
   border-radius: 50%;
 
@@ -134,8 +131,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #84fff9;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 
 }
@@ -144,8 +141,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #ff7dff;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
 
@@ -153,8 +150,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #fff042;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
 
@@ -162,8 +159,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #E91E63;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
 
@@ -171,7 +168,7 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #71ffaa;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
