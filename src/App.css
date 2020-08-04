@@ -119,8 +119,8 @@ margin-bottom: 20px;
 .dead{
   display:flex;
   flex-direction: column;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   background: black;
   border-radius: 50%;
 
@@ -131,8 +131,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #84fff9;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 
 }
@@ -141,8 +141,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #ff7dff;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
 
@@ -150,8 +150,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #fff042;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
 
@@ -159,8 +159,8 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #E91E63;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
 
@@ -168,7 +168,7 @@ margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   background: #71ffaa;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
