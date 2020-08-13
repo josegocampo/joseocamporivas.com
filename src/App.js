@@ -9,6 +9,8 @@ import About from './components/About'
 import Proyects from './components/Proyects'
 import Course from './components/Course'
 import Cgol from './components/Cgol'
+import Pizza from './components/Pizza'
+import Program from './components/Program'
 
 
 function App(){
@@ -28,6 +30,11 @@ return(
                                         <Route exact path="/proyects" component={Proyects} />
                                         <Route exact path="/cgol" component={Cgol} />
                                         <Route exact path="/about" component={About} />
+                                        <Route exact path="/essay/pizza" component={Pizza} />
+                                        <Route exact path="/essay/program" component={Program} />
+                                       
+                                       
+                                        
                              </Switch>
                         
                 </Router>

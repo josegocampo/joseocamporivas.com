@@ -11,15 +11,20 @@ import talk from '../images/talk.png'
 import yt from '../images/yt.png' 
 import yoback from '../images/yoback.png';
 
+
 function Landing(){
 
+
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+    }
     const Cuerpo = styled.div`
         margin: 0 auto;
         display: flex,
         flex-direction: column;
-        max-width: 730px;
+        max-width: 700px;
         align-items: flex-start;
-
+    
         @media ${device.mobileS}{
             max-width: 320px;
             background: red;
@@ -43,7 +48,7 @@ function Landing(){
         color: rgb(84, 89, 119);
         margin: 0 auto;
         flex-direction: column;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 500;
         line-height: 1.4rem;
         letter-spacing: 1.1px;
@@ -63,16 +68,16 @@ function Landing(){
 
       const Presentacion2 = styled.div`
         color: rgb(84, 89, 119);
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 500;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
         letter-spacing: 1.1px;
         margin-right: 20px;
         display: flex;
         flex-direction: column;
         text-align: left;
         padding-left: 20px;
-        width: 71%;
+        width: 81%;
         margin-top: 5px;
         @media ${device.mobileL}{
             width: 90%;
@@ -86,6 +91,8 @@ function Landing(){
         flex-direction: column;
         align-items: flex-start;
         width: 33%;
+        margin-right: 20px;
+     
         @media ${device.mobileL}{
             width: 150px;
             margin: 0 auto;
@@ -121,7 +128,7 @@ function Landing(){
     `
 
     const Titulo = styled.div`
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     width: 90%;
     margin-top: 20px;
     padding-left: 20px;
@@ -142,7 +149,7 @@ function Landing(){
       
     return(
         <Cuerpo>
-            <Titulo>Jose Ocampo</Titulo>
+            <Titulo className="titulo">Jose Ocampo</Titulo>
                <Topleft>
                     <Presentacion className="about_me"> 
                        
@@ -153,18 +160,6 @@ function Landing(){
                                     productividad, startups, programacion, ciencias, etc.
                                 </p>
                              </Presentacion>
-{/* 
-                            Paso gran parte del tiempo investigando estos temas y practicando con herramientas relacionadas a ellos, puedes seguirme en twitter ya que la
-                            mayoría del tiempo comparto lo que estoy haciendo. */}
-
-                            
-                        {/* <Typing>
-                            <span> Soy Jose Ocampo,</span><Typing.Delay ms={500} /><span>software developer</span> <Typing.Backspace count={19} />
-                            <Typing.Delay ms={1000} /><span> programador<Typing.Delay ms={200} />, abogado, jugador de <Typing.Backspace count={12} /> ex jugador de poker,<Typing.Delay ms={200} />
-                            <Typing.Delay ms={200} /> intento de pixel artist, etc.</span><br/><br/><span>Gracias por visitar!<br/><br/> Si no sabes que ver, haz click en el dado >>> 
-                            <img src={verde} className="dado"/> 
-                            </span>
-                        </Typing> */}
                    
                     <Images>
                         <Img img src={yoback}/>
@@ -181,18 +176,19 @@ function Landing(){
                               Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana</div><br/>
                             </Presentacion2>
                         
-                <div css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
+                <form onSumbit={handleSubmit} css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
                      <input type='text' placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left'}}/>
-                     <button css={{ color: 'white', background: '#e89049', height: 40, minWidth: 100, fontFamily: 'Merriweather', fontWeight: 600, letterSpacing: 1.3,
+                     <button css={{ color: 'white', background: '#e89049', height: 40, minWidth: 100, fontWeight: 600, letterSpacing: 0.5,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
                          Suscribete!</button>
-            </div>
+            </form>
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
                            marginTop: 30, 
-                           fontSize: '0.9rem',
+                           fontSize: '1rem',
+                           letterSpacing: 1.1,
                            fontWeight: 500,
                            lineHeight: '2rem',
                            letterSpacing: 1,

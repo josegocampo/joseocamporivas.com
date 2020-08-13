@@ -18,7 +18,7 @@ const Nav = props => {
   return (
   
        
-      <Navigator>
+      <Navigator className="navs">
           <NavaLinks>
   
               <Link to ='/'><Navalogo><img src={logo3} className='logo'/></Navalogo></Link>
@@ -62,7 +62,7 @@ const Navigator = styled.div`
   display: flex;
   align-items: flex-start;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 500;
   max-width: 640px;
   padding-right: 5px;
   
@@ -129,7 +129,8 @@ margin-bottom: 3px;
 `
 
 const Nava = styled.div`
-letter-spacing: 0.9px;
+font-size: 0.85rem;
+font-weight: 600;
 text-transform: none;
 margin-left: 15px;
 color: rgb(102 184 222);

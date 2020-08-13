@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&family=PT+Serif&display=swap');
 
 
 
-
-
+.navs{
+  font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+  font-family: 'Lato', sans-serif;
+}
 .essay {
     text-align: left;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    font-size: 1rem;
 } 
 @keyframes fadeInAnimation { 
     0% { 
