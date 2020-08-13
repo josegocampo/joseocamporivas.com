@@ -1,15 +1,17 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
+import styled from "styled-components";
 import React, { useState } from 'react';
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router, Link } from "react-router-dom";
 import '../App.css';
 import {device} from './utils/MQs'
 import mejor from '../images/mejorcalidad.png';
-import styled from "styled-components";
 import Pizza from './Pizza'
 import Program from './Program'
 
-function EssayTemplate() {
+function EssayTemplate(props) {
+
+
 
 const [color, setColor] = useState('white')
 
@@ -135,60 +137,57 @@ else if (color === 'sepia'){
 
   return (
 
-  <Bod className="App" css={colorMode} >
   
-    <Sides className ="left-right">
-      
-          <div css={buttons}>
-            {color === 'white'? <div css={noneWhite}/> : <div className="color-mode" onClick={handleWhite} css={white} ><div></div></div>}
-            {color === 'black'? <div css={noneBlack}/> : <div className="color-mode" onClick={handleBlack} css={black} ><div></div></div>}
-            {color === 'green'? <div css={noneGreen}/> : <div className="color-mode" onClick={handleGreen} css={green} ><div></div></div>}
-            {color === 'sepia'? <div css={noneSepia}/> : <div className="color-mode" onClick={handleSepia} css={sepia} ><div></div></div>}
-          </div>
-          
+    <Bod className="App" css={colorMode} >
     
-                    
-              <div className="text" css={{
-                    margin: '0 auto',
-                    fontSize: 14,
-                    lineHeight: 1.5,
-                    width: '85%',
-                    fontWeight: 300,
-                    marginLeft: '10%',
-                    fontWeight: 500
-                  
-                   }}>
-  <img src={mejor} className="me2"/>
-                <h1>TITULO DEL TEXTO</h1>
-  
-                
-            
-    
-                 
-                          
-               
-                  <div className="essay">
+      <Sides className ="left-right">
         
-                <Switch>
-                  
-                    
-                         <Pizza/>
-                         <Program/>
-                </Switch>
-              
-                  
-              
+            <div css={buttons}>
+              {color === 'white'? <div css={noneWhite}/> : <div className="color-mode" onClick={handleWhite} css={white} ><div></div></div>}
+              {color === 'black'? <div css={noneBlack}/> : <div className="color-mode" onClick={handleBlack} css={black} ><div></div></div>}
+              {color === 'green'? <div css={noneGreen}/> : <div className="color-mode" onClick={handleGreen} css={green} ><div></div></div>}
+              {color === 'sepia'? <div css={noneSepia}/> : <div className="color-mode" onClick={handleSepia} css={sepia} ><div></div></div>}
             </div>
-                
-          
+            
       
-    </div>
+                      
+                <div className="text" css={{
+                      margin: '0 auto',
+                      fontSize: 14,
+                      lineHeight: 1.5,
+                      width: '85%',
+                      fontWeight: 300,
+                      marginLeft: '10%',
+                      fontWeight: 500
+                    
+                     }}>
+    <img src={mejor} className="me2"/>
+              
     
-    </Sides>
-    <div css={{margin: '0 auto', maxWidth: 600, color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
-              textAlign: 'center', fontSize: '0.7rem', paddingTop: 20, paddingBottom: 40  }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
-    </Bod>
-    
+                  
+              
+      
+        
+             
+              
+                        <div className="essay">
+          
+         
+                        
+                    
+                  </div>
+                      
+                  
+            
+        
+      </div>
+      
+      </Sides>
+      <div css={{margin: '0 auto', maxWidth: 600, color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
+                textAlign: 'center', fontSize: '0.7rem', paddingTop: 20, paddingBottom: 40  }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+      </Bod>
+      
+
 
     
       

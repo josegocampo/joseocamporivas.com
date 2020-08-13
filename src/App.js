@@ -11,6 +11,7 @@ import Course from './components/Course'
 import Cgol from './components/Cgol'
 import Pizza from './components/Pizza'
 import Program from './components/Program'
+import Essays from './components/Essays'
 
 
 function App(){
@@ -23,15 +24,18 @@ return(
                 <Router>
                         <Nav/>
                              <Switch>
-                                        <Route exact path="/essay" component={EssayTemplate} />
+                                        
                                         <Route exact path="/" component={Landing} />
+                                        <Route exact path="/essay" component={EssayTemplate} />
                                         <Route exact path="/garden" component={Garden} />
                                         <Route exact path="/course" component={Course} />
                                         <Route exact path="/proyects" component={Proyects} />
                                         <Route exact path="/cgol" component={Cgol} />
                                         <Route exact path="/about" component={About} />
-                                        <Route exact path="/essay/pizza" component={Pizza} />
-                                        <Route exact path="/essay/program" component={Program} />
+                                        <Route exact path="/essays" component={Essays} />
+                                        <Route exact path="/pizza" component={Pizza} />
+                                        <Route exact path="/Program" component={Program} />
+                                        
                                        
                                        
                                         

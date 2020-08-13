@@ -25,7 +25,7 @@ const Nav = props => {
               <NavATags>
                
                   <Link to="/course"><Nava>Cursos </Nava></Link>
-                  <Link to="/essay"><Nava>Ensayos </Nava></Link>
+                  <Link to="/essays"><Nava>Ensayos </Nava></Link>
                   <Link to="/garden"><Nava>Jardin Digital</Nava></Link>
                   <Link to="/proyects"><Nava>Proyectos</Nava></Link>
                   <Link to="/about"><Nava>Sobre mi</Nava></Link>
