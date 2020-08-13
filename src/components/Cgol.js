@@ -4,6 +4,7 @@ import React, { useState, useCallback, useRef } from 'react';
 import produce from 'immer';
 import '../App.css';
 import styled from "styled-components";
+import retro from '../images/retro.jpg';
 
 let rowNum = 35
 let colNum = 50
@@ -25,11 +26,14 @@ for (let i = 0; i < rowNum; i++) {
 }
 
 const Cgol = () => {
+    const Back = styled.div`
+   
+    `
 
     const Main = styled.div`
     margin: 0 auto;
-    width: 800px;
     display: flex;
+    width: 800px;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -88,7 +92,7 @@ const Cgol = () => {
  
   const randomRows = []
 for (let i = 0; i < rowNum; i++) {
-  randomRows.push(Array.from(Array(colNum), () => Math.random() > 0.75 ? Math.random() : 0))
+  randomRows.push(Array.from(Array(colNum), () => Math.random() > 0.85 ? Math.random() : 0))
 }
 
   const [nest, setNest] = useState(() => {
@@ -154,72 +158,74 @@ for (let i = 0; i < rowNum; i++) {
 
 
 return (
- <Main>
-    <Orden> 
-        
-       <Tittle>
-           <h1>Conway's Game of Life</h1>
-       </Tittle>
-      <div className="grid">
+<Back>
+   <Main>
+      <Orden> 
+          
+         <Tittle>
+             <h1>Conway's Game of Life</h1>
+         </Tittle>
+        <div className="grid">
+    
+          {nest.map((row, ix1) => (
+    
+            <div className="rows">
+              {row.map((cell, ix2) => (
+    
+                <div key={`${ix1}-${ix2}`}
+                  onClick={!running ? () => {
+                    const newNest = produce(nest, nestCopy => {
+                      if (nest[ix1][ix2] === 0) {
+                        nestCopy[ix1][ix2] = Math.random()
+                        console.log(cell)
+                      }
+                      else {
+                        nestCopy[ix1][ix2] = 0
+                      }
+                    })
+                    setNest(newNest)
+                  } : null} className={cell === 0 ? "dead" : cell > 0.8 ? "bro" : cell > 0.6 ? "color": cell > 0.4 ? "wtf" : cell > 0.2? "alive" : "ble"} />
+                    
+              ))}
+            </div>
+    
+          )
+          )}
+        </div>
+        <h1>Years since Big Bang: {countRef.current}</h1>
+        <Buttons className="buttons">
+          <Button
+            onClick={() => {
+              setRunning(!running)
+              runningRef.current = true
+              simulate()
+            }
+              }>
+            {running ? "Stop" : "Start"}
+          </Button>
+          <Button onClick={() => resetStuff()} >Reset</Button>
+          <Button onClick={() => setNest(randomRows)}>Azar</Button>
+          <Button onClick={() => speed > 4000 ? null : setSpeed(speed + 200)}>+Lento</Button>
+          <Button onClick={() => speed < 300 ? null : setSpeed(speed - 200)}>+Rapido</Button>
+        </Buttons>
+    
+      </Orden>
+      <Rules>
+        <h2 css={{borderBottom: '1px solid black'}}>The Rules:</h2>
+         <h3>Every circle is a cell</h3>
+         <h3>Black cells are dead</h3>
+         <h3>Colored cells are alive</h3>
+         <h3>If a dead cell has 3 neighbours it will come to life</h3>
+         <h3>If a live cell has less than 2 neighbours, it will die of solitude</h3>
+         <h3>If a live cell has more than 3 neighbours, it will die of overcrowding</h3>
+        </Rules>
   
-        {nest.map((row, ix1) => (
   
-          <div className="rows">
-            {row.map((cell, ix2) => (
   
-              <div key={`${ix1}-${ix2}`}
-                onClick={!running ? () => {
-                  const newNest = produce(nest, nestCopy => {
-                    if (nest[ix1][ix2] === 0) {
-                      nestCopy[ix1][ix2] = Math.random()
-                      console.log(cell)
-                    }
-                    else {
-                      nestCopy[ix1][ix2] = 0
-                    }
-                  })
-                  setNest(newNest)
-                } : null} className={cell === 0 ? "dead" : cell > 0.8 ? "bro" : cell > 0.6 ? "color": cell > 0.4 ? "wtf" : cell > 0.2? "alive" : "ble"} />
-                  
-            ))}
-          </div>
+    
   
-        )
-        )}
-      </div>
-      <h1>Years since Big Bang: {countRef.current}</h1>
-      <Buttons className="buttons">
-        <Button
-          onClick={() => {
-            setRunning(!running)
-            runningRef.current = true
-            simulate()
-          }
-            }>
-          {running ? "Stop" : "Start"}
-        </Button>
-        <Button onClick={() => resetStuff()} >Reset</Button>
-        <Button onClick={() => setNest(randomRows)}>Azar</Button>
-        <Button onClick={() => speed > 4000 ? null : setSpeed(speed + 200)}>+Lento</Button>
-        <Button onClick={() => speed < 300 ? null : setSpeed(speed - 200)}>+Rapido</Button>
-      </Buttons>
-  
-    </Orden>
-    <Rules>
-      <h2 css={{borderBottom: '1px solid black'}}>The Rules:</h2>
-       <h3>Every circle is a cell</h3>
-       <h3>Black cells are dead</h3>
-       <h3>Colored cells are alive</h3>
-       <h3>If a dead cell has 3 neighbours it will come to life</h3>
-       <h3>If a live cell has less than 2 neighbours, it will die of solitude</h3>
-       <h3>If a live cell has more than 3 neighbours, it will die of overcrowding</h3>
-      </Rules>
-
-
-
-  
-
- </Main>
+   </Main>
+</Back>
 
 )
             }

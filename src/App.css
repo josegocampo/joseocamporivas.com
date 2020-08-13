@@ -65,7 +65,7 @@ margin-bottom: 20px;
 
 .typewriter{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
+  border-right: .15em dotted black; /* The typwriter cursor */
   white-space: break-spaces; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -108,7 +108,9 @@ margin-bottom: 20px;
 .grid{
   margin: 0 auto;
   margin-top: 30px;
-  background: black;
+  border-radius: 10px;
+  border: 5px solid #583182;
+
 }
 .rows{
   display: flex;
@@ -119,10 +121,10 @@ margin-bottom: 20px;
 .dead{
   display:flex;
   flex-direction: column;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background: black;
-  border-radius: 50%;
+  border: 1px dotted #583182;
 
 
 }
@@ -130,45 +132,45 @@ margin-bottom: 20px;
 .alive{
   display:flex;
   flex-direction: column;
-  background: #84fff9;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  background: #c5cbff;
+  width: 10px;
+  height: 10px;
+  border: 1px dotted #583182;
 
 }
 
 .wtf{
   display:flex;
   flex-direction: column;
-  background: #ff7dff;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  background: #F6019D;
+  width: 10px;
+  height: 10px;
+  border: 1px dotted #583182;
 }
 
 .bro{
   display:flex;
   flex-direction: column;
-  background: #fff042;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  background: #FF6C11;
+  width: 10px;
+  height: 10px;
+  border: 1px dotted #583182;
 }
 
 .ble{
   display:flex;
   flex-direction: column;
-  background: #E91E63;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  background: #FF3864;
+  width: 10px;
+  height: 10px;
+  border: 1px dotted #583182;
 }
 
 .color{
   display:flex;
   flex-direction: column;
-  background: #71ffaa;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  background: #2DE2E6;
+  width: 10px;
+  height: 10px;
+  border: 1px dotted #583182;
 }
