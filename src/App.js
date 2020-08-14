@@ -9,7 +9,7 @@ import About from './components/About'
 import Proyects from './components/Proyects'
 import Course from './components/Course'
 import Cgol from './components/Cgol'
-import Pizza from './components/Pizza'
+import Conway from './components/Conway'
 import Program from './components/Program'
 import Essays from './components/Essays'
 
@@ -33,8 +33,8 @@ return(
                                         <Route exact path="/cgol" component={Cgol} />
                                         <Route exact path="/about" component={About} />
                                         <Route exact path="/essays" component={Essays} />
-                                        <Route exact path="/pizza" component={Pizza} />
-                                        <Route exact path="/Program" component={Program} />
+                                        <Route exact path="/conway" component={Conway} />
+                           
                                         
                                        
                                        

@@ -27,7 +27,6 @@ function Landing(){
     
         @media ${device.mobileS}{
             max-width: 320px;
-            background: red;
         }
     `
 
@@ -45,13 +44,12 @@ function Landing(){
       `
 
     const Presentacion = styled.div`
-        color: rgb(84, 89, 119);
+        color: #333;
         margin: 0 auto;
         flex-direction: column;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.4rem;
-        letter-spacing: 1.1px;
+        line-height: 1.6rem;
         display: flex;
         align-items: center;
         width: 66%;
@@ -67,17 +65,16 @@ function Landing(){
       `
 
       const Presentacion2 = styled.div`
-        color: rgb(84, 89, 119);
-        font-size: 1rem;
+        color: #333;
+        font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.4rem;
-        letter-spacing: 1.1px;
+        line-height: 1.6rem;
         margin-right: 20px;
         display: flex;
         flex-direction: column;
         text-align: left;
         padding-left: 20px;
-        width: 81%;
+        width: 91%;
         margin-top: 5px;
         @media ${device.mobileL}{
             width: 90%;
@@ -149,7 +146,7 @@ function Landing(){
       
     return(
         <Cuerpo>
-            <Titulo className="titulo">Jose Ocampo</Titulo>
+            <Titulo className="titulo">Hola, soy Jose</Titulo>
                <Topleft>
                     <Presentacion className="about_me"> 
                        
@@ -187,13 +184,13 @@ function Landing(){
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
                            marginTop: 30, 
-                           fontSize: '1rem',
-                           letterSpacing: 1.1,
+                           fontSize: '1.2rem',
                            fontWeight: 500,
-                           lineHeight: '2rem',
+                           lineHeight: '1.6rem',
                            letterSpacing: 1,
                            paddingLeft: 30
             }} className="about_me">Espero lo disfruten,<br/>
+
                 Jose </div>
             </div>
             <Icons>

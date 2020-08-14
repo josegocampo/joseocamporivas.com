@@ -6,7 +6,6 @@ import { Route, Switch, BrowserRouter as Router, Link } from "react-router-dom";
 import '../App.css';
 import {device} from './utils/MQs'
 import mejor from '../images/mejorcalidad.png';
-import Pizza from './Pizza'
 import Program from './Program'
 
 function EssayTemplate(props) {
