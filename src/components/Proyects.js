@@ -93,10 +93,7 @@ const Proyects = () => {
         <Projects>
           <Project><a href="https://www.juegovida.com/"><h2 css={{ textAlign: 'center' }}></h2>
             <Img src={cgol} /></a>
-            <p css={{fontSize: '1.1rem', fontWeight: 600}}>Autómata celular Diseñado por John Conway, uno de los más grandes matemáticos del Siglo XX.<br /><br />
-
-
-                Mas información <Link to="conway">aquí.</Link><br />
+            <p className="about">Autómata celular Diseñado por John Conway, uno de los más grandes matemáticos del Siglo XX. Mas información <Link to="conway">aquí.</Link><br />
             </p>
           </Project>
         </Projects>
