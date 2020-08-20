@@ -5,7 +5,7 @@ import styled from "styled-components";
 import wip from '../images/wip.png'
 import {device} from './utils/MQs'
 import '../App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import cgol from '../images/cgol.png'
 
 
@@ -96,7 +96,7 @@ const Proyects = () => {
             <p css={{fontSize: '1.1rem', fontWeight: 600}}>Autómata celular Diseñado por John Conway, uno de los más grandes matemáticos del Siglo XX.<br /><br />
 
 
-                Si quieres saber más sobre John Conway, el Juego de la Vida, y la aplicación, escribí un artículo aquí.<br />
+                Mas información <Link to="conway">aquí.</Link><br />
             </p>
           </Project>
         </Projects>
