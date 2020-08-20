@@ -49,9 +49,9 @@ const About = () => {
               <p>El stack tecnológico con que actualmente me siento mas comodo es:</p>
               
              <ul>
-                <li>Front: JS, React, Redux, Styled Components, CSS, LESS HTML5</li>
+                <li>Front: JS, React, Redux, Styled Components, CSS, LESS HTML5.</li>
   
-                <li>Back: Node, Express, Knex, SQL, REST APIs, Relational Databases</li>
+                <li>Back: Node, Express, Knex, SQL, REST APIs, Relational Databases.</li>
              </ul>
 
               <p>Me encanta leer, hacer deportes, cocinar —especialmente pizzas—, jugar juegos de estrategia y a veces me divierto escribiendo y 
