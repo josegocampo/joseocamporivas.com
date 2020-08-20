@@ -153,7 +153,7 @@ function Landing(){
                        
                             <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado, pizzaiolo amateur y previamente jugador profesional de poker. <br/><br/>
                                 
-                               En este sitio escribo sobre las cosas que estoy haciendo interesantes y me entretienen, 
+                               En este sitio escribo sobre las cosas que estoy haciendo y los temas me entretienen, 
                                         como tecnología, herramientas de 
                                     productividad, startups, programación, ciencias, etc.
                                 </p>
