@@ -105,6 +105,12 @@ function Conway() {
 
 }
     `
+
+  const Image = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  `
     
     const Img = styled.img`
     margin: 0 auto;
@@ -156,7 +162,7 @@ function Conway() {
     position: 'fixed',
     zIndex: 1,
     height: 40,
-    marginTop: 235,
+    marginTop: 70,
     width: '7%',
     marginRight: 20
     
@@ -277,7 +283,7 @@ function Conway() {
           <div className="essay">
 
             <Titulo css={{marginTop: 30}} className="titulo">Un Genio Mágico y su Juego de la Vida</Titulo>
-            <img src={mejor} className="me2" />
+           <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgba(117, 117, 117, 1)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>Agosto 15, 2020  · 6 minutos de lectura</span></Image>
             <p css={{color: 'rgba(117, 117, 117, 1)', fontSize: '1.4rem', lineHeight: '2.2rem'}}>
   
   "Richard Feynman era un genio mágico. Lo mismo siempre me impacto de John –era un matemático mágico. 

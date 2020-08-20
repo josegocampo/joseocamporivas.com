@@ -23,11 +23,10 @@ const Nav = props => {
   
               <Link to ='/'><Navalogo><img src={logo3} className='logo'/></Navalogo></Link>
               <NavATags>
-               
+              <Link to="/essays"><Nava>Ensayos </Nava></Link>
                   <Link to="/course"><Nava>Cursos </Nava></Link>
-                  <Link to="/essays"><Nava>Ensayos </Nava></Link>
-                  <Link to="/garden"><Nava>Jardin Digital</Nava></Link>
                   <Link to="/proyects"><Nava>Proyectos</Nava></Link>
+                  <a href="https://twitter.com/josegocampo"><Nava>Twitter</Nava></a>
                   <Link to="/about"><Nava>Sobre mi</Nava></Link>
                 
               </NavATags>

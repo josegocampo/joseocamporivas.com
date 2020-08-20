@@ -47,7 +47,7 @@ function Landing(){
         color: #333;
         margin: 0 auto;
         flex-direction: column;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 500;
         line-height: 1.6rem;
         display: flex;
@@ -66,7 +66,7 @@ function Landing(){
 
       const Presentacion2 = styled.div`
         color: #333;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 500;
         line-height: 1.6rem;
         margin-right: 20px;
@@ -121,7 +121,8 @@ function Landing(){
         height: 30px;
         margin-top: 20px;
         border-radius: 5px;
-        &:hover: {cursor: pointer}
+        &:hover {cursor: pointer};
+
     `
 
     const Titulo = styled.div`
@@ -150,11 +151,11 @@ function Landing(){
                <Topleft>
                     <Presentacion className="about_me"> 
                        
-                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado y previamente jugador profesional de poker. <br/><br/>
+                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado, pizzaiolo amateur y previamente jugador profesional de poker. <br/><br/>
                                 
-                               En este sitio escribo sobre las cosas que encuentro interesantes y me entretienen, 
-                                        como tecnologia, herramientas de 
-                                    productividad, startups, programacion, ciencias, etc.
+                               En este sitio escribo sobre las cosas que estoy haciendo interesantes y me entretienen, 
+                                        como tecnología, herramientas de 
+                                    productividad, startups, programación, ciencias, etc.
                                 </p>
                              </Presentacion>
                    
@@ -166,11 +167,10 @@ function Landing(){
                 <Presentacion2 className="about_me">
                                 <div css={{ height: '50%'}}>
                                     Si eres una persona curiosa y te interesan estos temas, deberias suscribirte a las ya
-                                    mas de 100 personas en mi <Link to="/newsletter" css={{textDecoration: 'none', color: 'rgb(0, 175, 240)', '&:hover': {color: '#e89049'}}}>
-                                    newsletter</Link> "Nombre de Newsletter".<br/><br/>
+                                    mas de 150 personas en mi Newsletter.<br/><br/>
                                 
                                 
-                              Es un email a la semana en el que comparto información sobre las cosas que descubro, pienso y me entretienen semana a semana</div><br/>
+                              Es un email cada dos semanas en el que comparto información útil sobre las cosas que voy descubriendo o lo que estoy pensando de manera más directa.</div><br/>
                             </Presentacion2>
                         
                 <form onSumbit={handleSubmit} css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
@@ -184,7 +184,7 @@ function Landing(){
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
                            marginTop: 30, 
-                           fontSize: '1.2rem',
+                           fontSize: '1.1rem',
                            fontWeight: 500,
                            lineHeight: '1.6rem',
                            letterSpacing: 1,
