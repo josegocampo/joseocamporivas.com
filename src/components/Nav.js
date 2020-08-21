@@ -27,7 +27,7 @@ const Nav = props => {
                   <Link to="/course"><Nava>Cursos </Nava></Link>
                   <Link to="/proyects"><Nava>Proyectos</Nava></Link>
                   <a href="https://twitter.com/josegocampo"><Nava>Twitter</Nava></a>
-                  <Link to="/about"><Nava>Sobre mi</Nava></Link>
+                  <Link to="/about"><Nava>About</Nava></Link>
                 
               </NavATags>
         

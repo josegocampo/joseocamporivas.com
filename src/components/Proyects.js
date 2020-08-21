@@ -7,6 +7,7 @@ import {device} from './utils/MQs'
 import '../App.css';
 import { Link } from "react-router-dom";
 import cgol from '../images/cgol.png'
+import espz from '../images/espz.jpg'
 
 
 
@@ -15,7 +16,7 @@ const Proyects = () => {
   const Tutto = styled.div`
     margin: 0 auto;
     padding-top: 30px;
-    max-width: 700px;
+    max-width: 730px;
     display: flex; 
     flex-direction: column;
 
@@ -49,6 +50,7 @@ const Proyects = () => {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     @media ${device.tablet}{
       max-width: 628px;
       flex-direction: column;
@@ -64,7 +66,8 @@ const Proyects = () => {
     }
   `
   const Project = styled.div`
-    width: 50%;
+    width: 45%;
+    height: 900px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -90,7 +93,7 @@ const Proyects = () => {
   `
 
   const Img = styled.img`
-    width: 340px;
+    width: 320px;
     
     @media ${device.tablet}{
       max-width: 620px;
@@ -118,8 +121,28 @@ const Proyects = () => {
       <Tutto>
         <Projects>
           <Project><a href="https://www.juegovida.com/"><h2 css={{ textAlign: 'center' }}></h2>
-            <Img src={cgol} /></a>
-            <p className="about">Autómata celular Diseñado por John Conway, uno de los más grandes matemáticos del Siglo XX. Mas información <Link to="conway">aquí.</Link><br />
+            <Img src={cgol}   /></a>
+            <p className="about">Autómata celular Diseñado por John Conway, uno de los más grandes matemáticos del Siglo XX. Hosteada en <a href="https://www.juegovida.com/">juegovida.com</a><br/><br/> Más información sobre el proyecto <Link to="conway">aquí.</Link><br /><br />
+            <span style={{fontWeight: 600}}>Tecnologías:</span> JavaScript, React, Styled Components, Immer.   <br /><br />
+            <span style={{fontWeight: 600}}>Status:</span><span style={{color: 'lightgreen'}}> MVP Done. </span>
+            <br /><br />
+            <span style={{fontWeight: 600}}>To do:</span> 
+            <ul><li>Media Queries.</li>
+            <li>Ability to resize Board.</li>
+           </ul>
+            </p>
+          </Project>
+          <Project><Link to="esperanza"><h2 css={{ textAlign: 'center' }}></h2>
+            <Img src={espz} style={{width: 240}} /></Link>
+            <p className="about">Aplicación de Golf encargada por club privado. Incluye bases de dato de jugadores, trackeo de scores, estadísticas, historial de juegos, etc.<br/><br/> Mas información sobre el proyecto <Link to="esperanza">aquí.</Link><br /><br />
+            <span style={{fontWeight: 600}}>Tecnologías:</span> JavaScript, React, React Native, Redux, Styled Components, Node, Knex, SQL, REST API. 
+            <br /><br />
+            <span style={{fontWeight: 600}}>Status:</span> <span style={{color: 'purple'}}>En producción</span>. 
+            <br /><br />
+            <span style={{fontWeight: 600}}>To do:</span> 
+            <ul><li>Host Backend to Heroku.</li>
+            <li>Test endpoints in front-end.</li>
+           </ul>
             </p>
           </Project>
         </Projects>

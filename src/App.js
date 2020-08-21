@@ -12,6 +12,8 @@ import Cgol from './components/Cgol'
 import Conway from './components/Conway'
 import Program from './components/Program'
 import Essays from './components/Essays'
+import Esperanza from './components/Esperanza'
+
 
 
 function App(){
@@ -34,6 +36,7 @@ return(
                                         <Route exact path="/about" component={About} />
                                         <Route exact path="/essays" component={Essays} />
                                         <Route exact path="/conway" component={Conway} />
+                                        <Route exact path="/esperanza" component={Esperanza} />
                            
                                         
                                        
