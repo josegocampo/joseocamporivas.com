@@ -14,19 +14,22 @@ p{
   margin-bottom: 25px;
 }
 .essay {
-    text-align: left;
-    animation: fadeInAnimation ease 3s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-    font-size: 1rem;
+  text-align: left;
+  animation: fadeInAnimation ease 3s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  font-size: 1rem;
   line-height: 1.4rem;
   font-weight: 500;
+  padding: 15px;
+
 } 
 
 .about {
   font-size: 1rem;
   line-height: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
+  padding: 15px;
 } 
 @keyframes fadeInAnimation { 
     0% { 
@@ -50,16 +53,24 @@ li{
   margin-bottom: 10px;
 }
 .color-mode{
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 550;
   font-size: 0.6rem;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
 }
+
+/* @media (max-width: 550px) {
+  .color-mode{
+  height: 15px;
+  width: 15px;
+  border-radius: 0px;
+  } */
+  /* } */
 .clr{
   width:20px;
   cursor: pointer;

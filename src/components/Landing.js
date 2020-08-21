@@ -93,6 +93,7 @@ function Landing(){
         @media ${device.mobileL}{
             width: 150px;
             margin: 0 auto;
+            margin-top: 15px;
           }
     `
 
@@ -133,9 +134,11 @@ function Landing(){
     
     @media ${device.tablet}{
         font-size: 2.8rem;
+        margin-top:10px;
         
       }
-      @media ${device.mobileM}{
+      @media ${device.mobileL}{
+        margin-top: 30px;
         font-size: 2.2rem;
         text-align: center;
       }

@@ -89,6 +89,7 @@ const Tutto = styled.div`
       max-width: 628px;
     }
     @media ${device.mobileL}{
+      padding: 15px;
       max-width: 468px;
     }
     @media ${device.mobileM}{
@@ -131,30 +132,25 @@ const Tutto = styled.div`
 }
     `
 
-  const Youtube = styled.iframe`
-  @media ${device.tablet}{
-    max-width: 600px;
-    
+    const Youtube = styled.iframe`
+    @media ${device.tablet}{
+      max-width: 570px;
+      }
+      
+    @media ${device.tabletS}{
+      max-width: 470px;
+      }
+      @media ${device.mobileL}{
+        max-width: 350px;
     }
-    
-  @media ${device.tabletS}{
-    max-width: 490px;
-   
+    @media ${device.mobileM}{
+      width: 310px;
     }
-    @media ${device.mobileL}{
-      max-width: 380px;
-     }
-  @media ${device.mobileM}{
-     width: 340px;
-
-  }
-  @media ${device.mobileS}{
-      max-width: 330px;
-
+    @media ${device.mobileS}{
+      max-width: 300px;
 }
 @media ${device.mobileXS}{
-max-width: 290px;
-
+  max-width: 260px;
 }
-  `
+    `
   

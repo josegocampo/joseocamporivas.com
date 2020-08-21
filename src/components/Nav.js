@@ -94,6 +94,8 @@ height: 60px;
 align-items: center;
 padding-top: 25px;
 padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
 
 @media ${device.mobileL}{
   flex-direction: column;

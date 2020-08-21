@@ -15,7 +15,7 @@ const Proyects = () => {
   const Tutto = styled.div`
     margin: 0 auto;
     padding-top: 30px;
-    width: 700px;
+    max-width: 700px;
     display: flex; 
     flex-direction: column;
 
@@ -49,6 +49,19 @@ const Proyects = () => {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media ${device.tablet}{
+      max-width: 628px;
+      flex-direction: column;
+    }
+    @media ${device.mobileL}{
+      max-width: 468px;
+    }
+    @media ${device.mobileM}{
+      max-width: 372px;
+    }
+    @media ${device.mobileS}{
+      max-width: 365px;
+    }
   `
   const Project = styled.div`
     width: 50%;
@@ -61,6 +74,19 @@ const Proyects = () => {
     font-size: 0.8rem;
     letter-spacing: 0.5px;
     line-height: 1.3rem;
+    @media ${device.tablet}{
+      max-width: 628px;
+      width: 80%;
+    }
+    @media ${device.mobileL}{
+      max-width: 468px;
+    }
+    @media ${device.mobileM}{
+      max-width: 372px;
+    }
+    @media ${device.mobileS}{
+      max-width: 365px;
+    }
   `
 
   const Img = styled.img`

@@ -17,6 +17,18 @@ function Conway() {
 
   const Bod = styled.div`
     margin: 0 auto;
+    @media ${device.tablet}{
+      max-width: 628px;
+    }
+    @media ${device.mobileL}{
+      max-width: 468px;
+    }
+    @media ${device.mobileM}{
+      max-width: 372px;
+    }
+    @media ${device.mobileS}{
+      max-width: 365px;
+    }
 
     `
 
@@ -25,8 +37,8 @@ function Conway() {
       display: flex;
       flexDirection: row;
       paddingTop: 40px;
-      paddingLeft: 5%;
       max-width: 730px;
+      margin-top: 20px;
 
       @media ${device.tablet}{
         max-width: 628px;
@@ -74,35 +86,23 @@ function Conway() {
     `
     const Youtube = styled.iframe`
     @media ${device.tablet}{
-      max-width: 600px;
-      border: 3px solid black;
-    
+      max-width: 570px;
       }
       
     @media ${device.tabletS}{
-      max-width: 500px;
-      border: 3px solid pink;
-    
+      max-width: 470px;
       }
       @media ${device.mobileL}{
-        max-width: 380px;
-        border: 2px solid red;
-
+        max-width: 350px;
     }
     @media ${device.mobileM}{
-      border: 1px solid blue;
-      width: 340px;
-
+      width: 310px;
     }
     @media ${device.mobileS}{
-      border: 1px solid green;
-      max-width: 330px;
-
+      max-width: 300px;
 }
 @media ${device.mobileXS}{
-  border: 1px solid purple;
-  max-width: 290px;
-
+  max-width: 260px;
 }
     `
 
@@ -114,40 +114,30 @@ function Conway() {
     
     const Img = styled.img`
     margin: 0 auto;
-    width: 657px;
+    max-width: 657px;
     border-radius: 2px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
     
     @media ${device.tablet}{
-      max-width: 600px;
-      border: 3px solid black;
-    
+      max-width: 570px;
       }
       
     @media ${device.tabletS}{
-      max-width: 500px;
-      border: 3px solid pink;
-    
+      max-width: 470px;
       }
       @media ${device.mobileL}{
-        max-width: 380px;
-        border: 2px solid red;
-
+        max-width: 350px;
     }
     @media ${device.mobileM}{
-      border: 1px solid blue;
-      width: 340px;
-
+      width: 310px;
     }
     @media ${device.mobileS}{
-      border: 1px solid green;
-      max-width: 330px;
-
+      max-width: 300px;
 }
 @media ${device.mobileXS}{
-  border: 1px solid purple;
-  max-width: 290px;
-
+  max-width: 260px;
 }
     `
 
@@ -161,17 +151,17 @@ function Conway() {
     alignItems: 'flex-start',
     position: 'fixed',
     zIndex: 1,
-    height: 40,
+    height: 45,
     marginTop: 70,
     width: '7%',
-    marginRight: 20
-    
+    marginRight: 20,
+    marginLeft: 5
   })
 
 
 
   const green = css({
-    color: '#696969',
+    color: '#616161',
     background: '#dfffe2c2',
   })
 
@@ -283,7 +273,7 @@ function Conway() {
           <div className="essay">
 
             <Titulo css={{marginTop: 30}} className="titulo">Un Genio Mágico y su Juego de la Vida</Titulo>
-           <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgba(117, 117, 117, 1)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>Agosto 15, 2020  · 6 minutos de lectura</span></Image>
+           <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgb(152 152 152)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>Agosto 15, 2020  · 6 minutos de lectura</span></Image>
             <p css={{color: 'rgba(117, 117, 117, 1)', fontSize: '1.4rem', lineHeight: '2.2rem'}}>
   
   "Richard Feynman era un genio mágico. Lo mismo siempre me impacto de John –era un matemático mágico. 
@@ -451,7 +441,7 @@ por su elevada inteligencia en más de una ocasión científicos estudiaron su c
           
           </Sides>
               <div css={{
-                margin: '0 auto', maxWidth: 600, color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61,
+                margin: '0 auto', maxWidth: 600, color: 'rgb(152 152 152)', borderTop: '1px solid #aaa', marginTop: 61,
                 textAlign: 'center', fontSize: '0.7rem', paddingTop: 20, paddingBottom: 40
               }}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
           </Bod>
