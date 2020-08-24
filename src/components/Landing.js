@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
-import React from 'react'
+import React, { useState } from 'react'
 import styled from "styled-components";
+import Mailchimp from 'react-mailchimp-form'
 import Typing from 'react-typing-animation';
 import { Link } from "react-router-dom";
 import {device} from './utils/MQs'
@@ -14,8 +15,10 @@ import yoback from '../images/yoback.png';
 
 function Landing(){
 
+const [subscribed, setSubscribed] = useState(false)
 
     const handleSubmit = (e) =>{
+        setSubscribed(true)
         e.preventDefault()
     }
     const Cuerpo = styled.div`
@@ -175,15 +178,16 @@ function Landing(){
                                 
                               Es un email cada dos semanas en el que comparto información útil sobre las cosas que voy descubriendo o lo que estoy pensando de manera más directa.</div><br/>
                             </Presentacion2>
-                        
-                <form onSumbit={handleSubmit} css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
-                     <input type='text' placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
+
+            
+                <form  action={process.env.REACT_APP_MAILCHIMP_URL} method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
+                     <input type='email' name="EMAIL" placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left'}}/>
                      <button css={{ color: 'white', background: '#e89049', height: 40, minWidth: 100, fontWeight: 600, letterSpacing: 0.5,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
                          Suscribete!</button>
-            </form>
+            </form> 
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
                            marginTop: 30, 
@@ -204,7 +208,9 @@ function Landing(){
 
                            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
             textAlign: 'center', fontSize: '0.7rem', paddingTop: 20}}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
-
+            
+       
+{/* <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} /> */}
         </Cuerpo>
         
     )
