@@ -13,6 +13,8 @@ import Conway from './components/Conway'
 import Program from './components/Program'
 import Essays from './components/Essays'
 import Esperanza from './components/Esperanza'
+import Hellosaurus from './components/Hellosaurus'
+
 
 
 
@@ -37,6 +39,7 @@ return(
                                         <Route exact path="/essays" component={Essays} />
                                         <Route exact path="/conway" component={Conway} />
                                         <Route exact path="/esperanza" component={Esperanza} />
+                                        <Route exact path="/hellosaurus" component={Hellosaurus} />
                            
                                         
                                        
