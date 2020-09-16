@@ -325,7 +325,7 @@ The tools I specifically use to solve a problem will depend on what you need me 
 </p>
 
 <p>
-I know this position if for a <strong>JavaScript internship</strong>, 
+I know this position is for a <strong>JavaScript internship</strong>, 
 for which I am <strong>very well qualified</strong>, having studied <strong>Web Development and Computer Science</strong> at Lambda School (another YC company) 
 and having <strong>built several apps using technologies based on JavaScript</strong> at its core, which I hope to have the opportunity to show to you.
 
@@ -347,7 +347,7 @@ and having <strong>built several apps using technologies based on JavaScript</st
 
 <p>I know you might be thinking I'm too far away, 
     but what does physical distance even mean in these days really, everyone is working remotely and we might be for a while, 
-    and we <strong>only have 1 hour difference from Chile to NY</strong>! I also have family in the U.S, my godmother (who is my aunt) lives in Berkeley, and my 
+    and we <strong>only have 1 hour difference from Chile to NY</strong>. I also have family in the U.S, my godmother (who is my aunt) lives in Berkeley, and my 
     cousins are split between SF, Oakland and Berkeley too, and I have a cousin living in NY who stayed there after going for a MPA in Columbia. </p>
 
 
@@ -358,9 +358,9 @@ and having <strong>built several apps using technologies based on JavaScript</st
 
 <p>
 Also Chile and the U.S have a free trade agreement which means chileans 
-are one out of of -I think- 2 nationalities in the world (Chile and Singapore) to be applicable for a H-1B1 visa, 
+are one out of -I think- 2 nationalities in the world (Chile and Singapore) to be applicable for a H-1B1 visa, 
 which is a lot easier to get and has a lot of privileges for chileans to go and work there on specialized industries,
- so if it comes to relocating in the future that is certainly an option too. I know I'm getting ahead of myself here, but just clearing some could be doubts.
+ so if it comes to relocating in the future that is certainly an option too. I know I'm getting ahead of myself here, but just clearing some could-be doubts.
 
 
 </p>  
