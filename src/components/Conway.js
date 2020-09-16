@@ -272,77 +272,63 @@ function Conway() {
 
           <div className="essay">
 
-            <Titulo css={{marginTop: 30}} className="titulo">Un Genio Mágico y su Juego de la Vida</Titulo>
-           <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgb(152 152 152)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>Agosto 15, 2020  · 6 minutos de lectura</span></Image>
+            <Titulo css={{marginTop: 30}} className="titulo">Why you should hire Jose Ocampo as Hellosaurus JS Intern</Titulo>
+           <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgb(152 152 152)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>September 15, 2020  · 4 minutes reading time</span></Image>
             <p css={{color: 'rgba(117, 117, 117, 1)', fontSize: '1.4rem', lineHeight: '2.2rem'}}>
   
-  "Richard Feynman era un genio mágico. Lo mismo siempre me impacto de John –era un matemático mágico. 
-  Era un genio mágico más que un genio ordinario.”
+            I want to share a little bit about why I'm excited for the position, why I think I am a perfect fit for the role and also in the end give you guys some info which could be helpful for you, all in under 1000 words (aka 3 minutes).
+
 </p>
             <Img src={john}/>
-            <p>John Conway fue uno de los matemáticos más destacados del último siglo.</p><p> Paso gran parte de su carrera como profesor e investigador en Princeton,
-            logrando grandes avances en geometría,  teoría de juegos, teoría de grupos finitos, teoría de juegos y teoría de códigos,
-por su elevada inteligencia en más de una ocasión científicos estudiaron su cerebro para entender cómo funcionaba.</p>
-            <p>A pesar de todo esto siempre mantuvo una actitud muy humilde y sencilla, pero con solo escucharlo unos minutos podemos entender su poder de razonamiento.  </p>
+            <p>I have done my research:
+.</p>
+            <p>I have read all that I’ve been able to find about Hellosaurus, talked with a few acquaintances that also got into this YC batch, watched the birthday show and read about entertainment, education and specifically online education for kids, and I am truly excited about the opportunity and the market that Hellosaurus is solving for. By the way, the comments were very good about the Startup and about James.
+ </p>
  
-            <p>Entre sus logros más destacados están:</p>
+            <p>
+I think this is an excellent opportunity and time to help parents and provide fun, entertainment and education to kids all over the world.
+</p>
 
-            <ul>
-              <li>Descubrimiento de los números surreales.</li>
-              <li>El Teorema del Libre Albedrio (Free Will Theorem)</li>
-              <li>Descubrimiento de los Grupos Conway (Conway Group)</li>
-              <li>Creación del Juego de la Vida.</li>
-                
-</ul>
 
 <p>
-  Fue descrito por eminencias de la matemática y del mundo de la programación como un “genio mágico”, “matemático legendario”. 
-  Neil Sloane, destacado matemático, lo describió como “la persona más rápida en resolver problemas que he visto”. 
-  Simon Kochen, su co autor en el Free Will Theorem, pone en perspectiva el genio de Conway:
+I would love to be part of the team and help Hellosaurus grow as much as I can!
+
 </p>
 
 <p>
-  “En matemáticas y física hay dos tipos de genios. Están los genios ordinarios –son como tu y yo, pero son mejores en lo que hacen; 
-  si trabajamos lo suficientemente duro, quizás podríamos alcanzar sus mismos resultados. Pero también están los genios mágicos. 
-  Richard Feynman era un genio mágico. Lo mismo siempre me impacto de John –era un matemático mágico. Era un genio mágico más que un genio ordinario”.
+I am a Web Developer and also a Lawyer, but more importantly I like to consider myself as a Full Stack problem solver and facilitator, the tool that will be used depends on the context of the problem we are trying to solve itself. 
+
 </p>
 
 <p>
-  A finales de los 60 desarrollo un autómata celular, el cual llamaría “The Game of Life”. 
-  Lo baso en una idea de John von Neumann de que para colonizar otros planetas se necesitaría 
-  primero enviar maquinas que fueran creando una atmosfera y construyendo las primeras estructuras que sustentarían a los humanos en un futuro. 
-  Para lograr esto, se necesitaría maquinas que fuesen capaces de construir copias de si mismas, lo cual es muy complicado, 
-  en general para construir una cierta maquina necesitas tener una maquina más compleja que esta que sea capaz de desarrollarla desde cero.
+At the previous Startup I worked at, a Legaltech where I was the first employee, -in which we qualified and went to the YC interview last December, but sadly didn't get in-, I wore many hats, from taking care of sales, helping with the development of the software and marketing pages, copywriting, creating content, managing social media, to reviewing and drafting contracts, and managing a team of 12 lawyers distributed all over the world. I was kind of like a mini CEO and my job was making the CEO’s life easier and solving the problems that needed taking care of. During that time we escalated from 60k annual recurring revenue to 200k, raised seed money, and moved to international markets.
+
 </p>
 
 <p>
-  Luego de 18 meses experimentando en los breaks de almuerzo con otros colegas, basándose en un tablero de Go, encontraron un set 
-  de reglas que tenía unas propiedades muy interesantes. Con un algoritmo bastante simple lograron crear un sistema de autómata celular en 
-  que es imposible predecir lo que ocurrirá con la mayoría de las configuraciones en un futuro, es decir, no se puede crear un algoritmo que vaya a 
-  predecir con exactitud en qué momento la simulación va a terminar o que tanto se va a expandir la “vida”.
+The tools I specifically use to solve a problem will depend on what you need me to work on.
+
+
 </p>
 
 <p>
-  Una propiedad más impresionante aún,  que los matemáticos lograron probar, es que con  estos “seres” cualquier cosa puede pasar,  
-  pueden hacer cualquier tipo de computación y se pueden diseñar configuraciones que se reconstruyesen a ellas mismas, crearan maquinas 
-  más complejas que ellas mismas, o bien,  se replicaran infinitamente, es lo que se llama Turing Complete.  
+I know this position if for a JavaScript internship, for which I am very well qualified, having studied Web Development and Computer Science at Lambda School (another YC company) and having built several apps using technologies based on JavaScript at its core, which I hope to have the opportunity to show to you.
+
 </p>
 
-<p>No solo eso, todo el juego fue diseñado y las pruebas matemáticas se hicieron sin ayuda de computadores!</p>
+<p>My main stack is React with Redux and Styled Components or CSS w/LESS for the FrontEnd and Node.js with Express, Knex, Relational Databases and Rest APIs for the Backend.
+</p>
 
-<p>Las reglas son las siguientes:</p>
+<p>I love building apps and solving complex problems, while providing a clean and ordered solution, but I am always open to help with whatever is needed. I know first hand that Startups sometimes have the need for team members to do many different things.
+</p>
 
  <p>
-   Tenemos un tablero con casilleros, como lo podría ser un tablero de ajedrez, o de Go. 
-   Cada casillero es una “célula”, cada célula tiene 8 vecinos, los cuadrados adyacentes, arriba,  abajo, izquierda, derecha y cada uno de las cuatro diagonales. 
-   Podemos elegir configuraciones iniciales con células vivas. Una célula muerta cobra vida cuando entra en contacto con 3 vecinos vivos. 
-   Una célula viva muere si tiene menos de 2 vecinos,  por soledad, o más de 3 vecinos, por sobrepoblación.
+ I am also the father of an amazing 2 year old and that makes me even more connected and excited for what we will be building.
+
  </p>
 
-<p>Las combinaciones que se pueden dar son realmente impresionantes como podemos ver en el video a continuación</p>
+<p>I know you might be thinking I'm too far away, but what does physical distance even mean in these days really, everyone is working remotely and we might be for a while, and we only have 1 hour difference from Chile to NY! I also have family in the U.S, my godmother (who is my aunt) lives in Berkeley, and my cousins are split between SF, Oakland and Berkeley too, and I have a cousin living in NY who stayed there after going for a MPA in Columbia. </p>
 
-
-<Youtube width="560" height="315" src="https://www.youtube.com/embed/R9Plq-D1gEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen css={{marginBottom: 35}}></Youtube>
 
 
 
@@ -350,7 +336,8 @@ por su elevada inteligencia en más de una ocasión científicos estudiaron su c
 
 
 <p>
-  El Juego de la Vida se ha estudiado exhaustivamente a través de los años para entender porque tiene dichas propiedades y se ha utilizado para entender sistemas tan complejos como la evolución de la vida y las especies. 
+Also Chile and the U.S have a free trade agreement which means chileans are one out of of -I think- 2 nationalities in the world (Chile and Singapore) to be applicable for a H-1B1 visa, which is a lot easier to get and has a lot of privileges for chileans to go and work there on specialized industries, so if it comes to relocating in the future that is certainly an option too. I know I'm getting ahead of myself here, but just clearing some could be doubts.
+
 
 </p>  
 
@@ -358,75 +345,39 @@ por su elevada inteligencia en más de una ocasión científicos estudiaron su c
   A pesar de todo esto, John Conway no le tenía mucho cariño al Juego de la Vida, porque si bien el estaba feliz de su experimento, creía que la gente le daba demasiada importancia al juego y esto opacaba otros descubrimientos y pruebas que logro que le parecían mucho más interesantes y con mas aplicaciones.
 
 </p>  
-<p>
-  Pueden ver en el siguiente video a Conway hablando sobre el Game of Life, en uno de una serie de videos que Numberphile le hizo en 2014, les recomiendo ver los otros también, van a poder tener una mirada a lo que es la inteligencia de John Conway. 
-  
 
+
+<p><h2 css={{marginTop: 70}}>Regardless of your decision to choose me or not, I found two very interesting content creators that I think would be a perfect fit for creating on and endorsing Hellosaurus. 
+</h2></p>
+
+
+
+<p>One is Ana Lorena Fabrega, this is her website. She is a former elementary school teacher who transitioned into being an advocate for online and alternative learning methods for kids and is currently associated with David Perell (maybe you have heard of him), creating very interesting content around education and learning for kids and has quite an audience.
+
+</p>
+
+<p>
+She is super extroverted and likeable too, has an very entertaining persona, I think she could be a great fit for Hellosaurus in many different qualities. 
+</p>  
+<p>
+The other is Kenziee Wenz , probably not so well known, but went viral a few days ago when someone shared one of her TikTok videos teaching her kindergarten students online. She clearly has a huge passion for what she does, and I could instantly imagine her creating content for Hellosaurus. Here is the video https://www.tiktok.com/@kenziiewenz/video/6872410436180921605?lang=es
 </p>  
 
-
-
-<p>Lamentablemente John Conway falleció el 11 de abril de 2020 por Covid-19.</p>
-
 <p>
-  Desarrolle este proyecto hace unas semanas como practica y me llamo la atención no encontrar ninguna versión en español del autómata celular de Conway, así que tras encontrar un dominio apropiado libre, decidí subirla para que más gente tenga la oportunidad de conocer el Game of Life y la vida de este destacado genio mágico. A mí me lleno de alegría conocerlo y tener una mirada a cómo funciona su mente y espero que a ustedes también.
-
-</p>  
-<p>
-  Si no te interesan los aspectos más técnicos de cómo crear un Game of Life propio deberías llegar hasta aquí, lo que viene a continuación tiene que ver con el desarrollo de la aplicación del Juego de la Vida en sí.
-
-</p>  
-<p><h2 css={{marginTop: 70}}>Pasando a la programación:</h2></p>
-
-<p>
-  Desarrollar el Juego de la Vida requiere ciertos conocimientos de algoritmos, en este caso el algoritmo es bastante sencillo y se puede desarrollar en casi cualquier lenguaje.
+Maybe that information could be helpful if you didn't have them in your radar.
 
 </p>  
 <p>
-  Para crear el tablero vamos a usar un Array o Lista bi-dimensional, con columnas y filas. Para esto vamos a crear un primer array  que va a tener un numero de índices igual a la cantidad de filas que queramos tener en el tablero y cada índice de ese array va a ser a la vez otro array con el largo de columnas que queramos que tenga el tablero. Cada índice de cada uno de los sub arrays (los arrays que son las filas) va a ser una de las células del tablero.
-
+Best Regards,
 </p>  
 <p>
-  Para revisar las células vivas y muertas y cuales deben pasar a estar muertas o vivas en la próxima generación vamos a necesitar ocupar una técnica llamada Double Buffering, que es una técnica utilizada  para reproducir gráficos, que es una manera complicada de decir que vamos a revisar y actualizar todos los bloques individualmente antes de actualizar el tablero completo, y una vez revisados vamos a actualizar el tablero completo  con la nueva versión. 
-
+Jose
 </p>  
 <p>
-  La aplicación que yo desarrolle esta echa en React, por lo que usar el estado y actualizarlo constantemente no era la mejor opción por 2 motivos: 1) habrían muchísimas actualizaciones de estado, causando que el componente se reprodujera cada vez que chequeamos un bloque, lo cual sería O(n^2) veces. 2) cada vez que actualicemos un bloque podría causar que los que va a pasar con los otros bloques cambie en razón de la actualización de este primer bloque, lo cual no es la idea. 
-
+Linkedin: https://www.linkedin.com/in/joseocampo/?locale=en_US
+Twitter: https://twitter.com/josegocampo
+Personal Website: https://www.joseocampo.org/conway   (only in Spanish for now, translated version coming)
 </p>  
-<p>
-  Hay más de una forma de resolver ese problema, pero me decidí por usar Immer, que gano los premios de Breakthrough of the year" React open source award y "Most impactful contribution" JavaScript open source award en 2019. 
-
-</p>  
-<p>
-  Me sirvió para conocer este pequeño paquete para React que te permite trabajar con un estado inmutable de manera muy sencilla al crear una copia (draft) del estado con el cual trabajas, modificas y luego cuando está listo tienes la opción de cambiarlo por el estado actual, haciendo más limpio el trabajo al no haber mutado el estado inicial en ningún momento.  Es muy útil para Redux también, simplifica bastante los reducers y es realmente fácil de usar.
-
-</p>  
-<p>
-  Luego, necesitamos también chekear cada célula individual mientras hacemos el loop contra sus vecinos para ver si vamos a cambiar su estado o mantenerlo igual, por lo que alguna forma de guardar una variable que contenga las combinaciones de vecinos y las checkee contra el índice  del bloque será una buena idea.
-
-</p>  
-<p>
-  Por último, tenemos que crear la visualización del tablero, dar la opción para checkear los distintos casilleros para así darles vida, para que los usuarios puedan probar distintas configuraciones  y una función para darle comienzo a la simulación. Eso se los dejare a ustedes, ya que son elementos mas comunes, 
-
-</p>  
-<p>
-  Además de esto, a mi aplicación en particular le añadí ciertas funcionalidades como poder acelerar o desacelerar la velocidad en que pasan las generaciones de vida del juego, una opción para poner configuraciones al azar, distintos colores en los bloques en base a números aleatorios, hay colores que tienen una posibilidad más alta de aparecer que otros, y botones para empezar y detener la simulación y otro para limpiar el tablero.
-
-</p>  
-<p>
-  Cosas que tengo pendientes para hacer son:
-
-</p>  
-<ol>
-  <li>Dar la opción para agrandar y achicar el tablero.</li>
- <li> Poner la opción para poder cargar ciertas configuraciones predeterminadas.</li>
- <li> Poner las reglas y la historia del juego de manera más ordenada.</li>
- <li> Terminar ciertos estilos de la página. </li>
-</ol>
-
-
-
 
 
  
