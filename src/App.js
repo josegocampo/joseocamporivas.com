@@ -14,6 +14,7 @@ import Program from './components/Program'
 import Essays from './components/Essays'
 import Esperanza from './components/Esperanza'
 import Hellosaurus from './components/Hellosaurus'
+import Test from './components/Test'
 
 
 
@@ -40,6 +41,7 @@ return(
                                         <Route exact path="/conway" component={Conway} />
                                         <Route exact path="/esperanza" component={Esperanza} />
                                         <Route exact path="/hellosaurus" component={Hellosaurus} />
+                                        <Route exact path="/test" component={Test} />
                            
                                         
                                        

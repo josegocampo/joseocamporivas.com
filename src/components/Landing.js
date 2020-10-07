@@ -7,9 +7,9 @@ import Typing from 'react-typing-animation';
 import { Link } from "react-router-dom";
 import {device} from './utils/MQs'
 import '../App.css';
-import twitter from '../images/twitter.png' 
-import talk from '../images/talk.png' 
-import yt from '../images/yt.png' 
+import twitter from '../images/twitter1.png' 
+import talk from '../images/github1.png' 
+import yt from '../images/linkedin1.png' 
 import yoback from '../images/yoback.png';
 
 
@@ -122,18 +122,17 @@ const [subscribed, setSubscribed] = useState(false)
     
     const Icon = styled.img`
         width: 30px;
-        height: 30px;
         margin-top: 20px;
-        border-radius: 5px;
         &:hover {cursor: pointer};
+
 
     `
 
     const Titulo = styled.div`
     font-size: 3.2rem;
     width: 90%;
-    margin-top: 20px;
     padding-left: 20px;
+    color: #3c3c3c;
     
     @media ${device.tablet}{
         font-size: 2.8rem;
@@ -180,11 +179,12 @@ const [subscribed, setSubscribed] = useState(false)
                             </Presentacion2>
 
             
-                <form  action={process.env.REACT_APP_MAILCHIMP_URL} method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20}}>
+                <form  action={process.env.REACT_APP_MAILCHIMP_URL} method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                         novalidate css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20, alignItems: 'center'}}>
                      <input type='email' name="EMAIL" placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left', fontSize: '0.9rem'}}/>
-                     <button css={{ color: 'white', background: '#e89049', height: 40, minWidth: 100, fontWeight: 600, letterSpacing: 0.5,
+                     <button css={{ color: 'white', background: '#e89049', height: 50, minWidth: 140, fontWeight: 500, letterSpacing: 0.5,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
                          Suscribete!</button>
             </form> 
@@ -201,6 +201,9 @@ const [subscribed, setSubscribed] = useState(false)
                 Jose </div>
             </div>
             <Icons>
+                {/* <Icon></Icon>
+                <Icon></Icon>
+                <Icon></Icon> */}
                                 <Icon src={twitter}/>
                                 <Icon src={yt}/>
                                 <Icon src={talk}/>

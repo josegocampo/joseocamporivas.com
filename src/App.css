@@ -146,6 +146,7 @@ margin-bottom: 20px;
 
 
 
+
   
 .grid{
   margin: 0 auto;
@@ -216,3 +217,53 @@ margin-bottom: 20px;
   height: 10px;
   border: 1px dotted #583182;
 }
+
+.redmode{
+  color: red;
+ 
+}
+
+.off:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+
+.special{
+  list-style-type: none;
+  color: red;
+}
+
+.titles:hover{
+  cursor: pointer
+}
+
+.titles{
+  list-style-type: none;
+}
+
+.titles:hover{
+  cursor: pointer
+}
+
+.Dropdown-option:last-of-type{
+  color:red;
+
+}
+
+.remo{
+  width: 200px;
+}
+
+.drop{
+  width: 200px;
+  position: absolute;
+  float: left;
+}
+
+
+.other{
+  width: 80px;
+  color: purple;
+}
+

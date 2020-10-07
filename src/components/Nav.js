@@ -61,10 +61,9 @@ const Navigator = styled.div`
   display: flex;
   align-items: flex-start;
   font-size: 0.8rem;
-  font-weight: 500;
   max-width: 640px;
   padding-right: 5px;
-  
+
   @media ${device.tablet}{
     font-size: 0.7rem;
     padding-left: 10px;
@@ -77,25 +76,19 @@ const Navigator = styled.div`
     font-size: 0.6rem;
     padding-left: 2px;
   }
- 
-  
-  
- 
 `
-
-
 
 const NavaLinks = styled.div`
 margin: 0 auto;
 display: flex;
-justify-content: space-between;
-width: 100%;
+width: 80%;
 height: 60px;
 align-items: center;
-padding-top: 25px;
+padding-top: 5px;
 padding-bottom: 15px;
 padding-left: 15px;
 padding-right: 15px;
+justify-content: space-between;
 
 @media ${device.mobileL}{
   flex-direction: column;
@@ -103,22 +96,6 @@ padding-right: 15px;
 }
 
 `
-// const NavaBurger = styled.div`
-// margin: 0 auto;
-// display: flex;
-// justify-content: space-between;
-// width: 100%;
-// height: 60px;
-// align-items: flex-end;
-// padding-top: 25px;
-// padding-bottom: 15px;
-
-// @media ${device.tablet}{
-//   font-size: 0.7rem;
-  
-// }
-  
-// `
 
 const Navalogo = styled.div`
   `
@@ -132,7 +109,7 @@ margin-bottom: 3px;
 
 const Nava = styled.div`
 font-size: 0.85rem;
-font-weight: 600;
+font-weight: 500;
 text-transform: none;
 margin-left: 15px;
 color: rgb(102 184 222);
