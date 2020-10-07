@@ -50,9 +50,9 @@ const [subscribed, setSubscribed] = useState(false)
         color: #333;
         margin: 0 auto;
         flex-direction: column;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.6rem;
+        line-height: 1.7rem;
         display: flex;
         align-items: center;
         width: 66%;
@@ -69,9 +69,9 @@ const [subscribed, setSubscribed] = useState(false)
 
       const Presentacion2 = styled.div`
         color: #333;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.6rem;
+        line-height: 1.7rem;
         margin-right: 20px;
         display: flex;
         flex-direction: column;
@@ -125,11 +125,10 @@ const [subscribed, setSubscribed] = useState(false)
         margin-top: 20px;
         &:hover {cursor: pointer};
 
-
     `
 
     const Titulo = styled.div`
-    font-size: 3.2rem;
+    font-size: 4rem;
     width: 90%;
     padding-left: 20px;
     color: #3c3c3c;
@@ -141,7 +140,6 @@ const [subscribed, setSubscribed] = useState(false)
       }
       @media ${device.mobileL}{
         margin-top: 30px;
-        font-size: 2.2rem;
         text-align: center;
       }
       
@@ -156,9 +154,9 @@ const [subscribed, setSubscribed] = useState(false)
                <Topleft>
                     <Presentacion className="about_me"> 
                        
-                            <p css={{ marginRight: 24}}>Soy desarrollador de software, abogado, pizzaiolo amateur y previamente jugador profesional de poker. <br/><br/>
+                            <p>Soy desarrollador de software, abogado, pizzaiolo amateur y ex jugador profesional de poker. <br/><br/>
                                 
-                               En este sitio escribo sobre las cosas que estoy haciendo y los temas que me entretienen, 
+                               Este sitio recoge las cosas en que estoy trabajando y los temas que me entretienen 
                                         como tecnología, herramientas de 
                                     productividad, startups, programación, ciencias, etc.
                                 </p>
@@ -184,14 +182,14 @@ const [subscribed, setSubscribed] = useState(false)
                      <input type='email' name="EMAIL" placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left', fontSize: '0.9rem'}}/>
-                     <button css={{ color: 'white', background: '#e89049', height: 50, minWidth: 140, fontWeight: 500, letterSpacing: 0.5,
+                     <button css={{ color: 'white', background: '#e89049', height: 60, minWidth: 180, fontWeight: 500, fontSize: '0.9rem', letterSpacing: 0.5,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
-                         Suscribete!</button>
+                         Suscribete</button>
             </form> 
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
                            marginTop: 30, 
-                           fontSize: '1.1rem',
+                           fontSize: '1.2rem',
                            fontWeight: 500,
                            lineHeight: '1.6rem',
                            letterSpacing: 1,
@@ -204,10 +202,10 @@ const [subscribed, setSubscribed] = useState(false)
                 {/* <Icon></Icon>
                 <Icon></Icon>
                 <Icon></Icon> */}
-                                <Icon src={twitter}/>
-                                <Icon src={yt}/>
-                                <Icon src={talk}/>
-                           </Icons>
+                                <a href="https://twitter.com/josegocampo"><Icon src={twitter}/></a>
+                                <a href="https://www.linkedin.com/in/joseocampo/?locale=en_US"><Icon src={yt}/></a>
+                                <a href="https://github.com/josegocampo"><Icon src={talk}/></a>
+                           </Icons> 
 
                            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
             textAlign: 'center', fontSize: '0.7rem', paddingTop: 20}}>© Jose Ocampo, 2020 | Todo hecho a mano</div>

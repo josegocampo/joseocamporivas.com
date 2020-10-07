@@ -112,7 +112,7 @@ font-size: 0.85rem;
 font-weight: 500;
 text-transform: none;
 margin-left: 15px;
-color: rgb(102 184 222);
+color: #00b6fe;
   &:hover {
     color: #e89049;
   }
