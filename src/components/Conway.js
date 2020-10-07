@@ -36,9 +36,9 @@ function Conway() {
       margin: 0 auto;
       display: flex;
       flexDirection: row;
-      paddingTop: 40px;
+ 
       max-width: 730px;
-      margin-top: 20px;
+
 
       @media ${device.tablet}{
         max-width: 628px;
@@ -272,7 +272,7 @@ function Conway() {
 
           <div className="essay">
 
-            <Titulo css={{marginTop: 30}} className="titulo">Un Genio Mágico y su Juego de la Vida</Titulo>
+            <Titulo css={{marginTop: 20}} className="titulo">Un Genio Mágico y su Juego de la Vida</Titulo>
            <Image> <img src={mejor} className="me2" /> <span css={{color: 'rgb(152 152 152)', fontSize: '0.9rem'}}><span css={{color: 'pink'}}>Jose Ocampo</span><br/>Agosto 15, 2020  · 6 minutos de lectura</span></Image>
             <p css={{color: 'rgba(117, 117, 117, 1)', fontSize: '1.4rem', lineHeight: '2.2rem'}}>
   

@@ -23,6 +23,7 @@ const [subscribed, setSubscribed] = useState(false)
     }
     const Cuerpo = styled.div`
         margin: 0 auto;
+        margin-top: 10px;
         display: flex,
         flex-direction: column;
         max-width: 700px;

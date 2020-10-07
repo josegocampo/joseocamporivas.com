@@ -57,7 +57,6 @@ export default Nav;
 const Navigator = styled.div`
   margin: 0 auto;
   height: 60px;
-  padding-bottom: 20px;
   display: flex;
   align-items: flex-start;
   font-size: 0.8rem;
@@ -85,7 +84,7 @@ width: 80%;
 height: 60px;
 align-items: center;
 padding-top: 5px;
-padding-bottom: 15px;
+padding-bottom: 5px;
 padding-left: 15px;
 padding-right: 15px;
 justify-content: space-between;
