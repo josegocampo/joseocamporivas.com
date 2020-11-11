@@ -10,7 +10,7 @@ import '../App.css';
 import twitter from '../images/twitter1.png' 
 import talk from '../images/github1.png' 
 import yt from '../images/linkedin1.png' 
-import yoback from '../images/yoback.png';
+import yoback from '../images/me2.png';
 
 
 function Landing(){
@@ -151,15 +151,16 @@ const [subscribed, setSubscribed] = useState(false)
       
     return(
         <Cuerpo>
-            <Titulo className="titulo">Hola, soy Jose</Titulo>
+            <Titulo className="titulo">Hi, I'm Jose</Titulo>
                <Topleft>
                     <Presentacion className="about_me"> 
                        
-                            <p>Soy desarrollador de software, abogado, pizzaiolo amateur y ex jugador profesional de poker. <br/><br/>
+                            <p>I am a software engineer, lawyer and former online poker pro player.<br/><br/>
                                 
-                               Este sitio recoge las cosas en que estoy trabajando y los temas que me entretienen 
-                                        como tecnología, herramientas de 
-                                    productividad, startups, programación, ciencias, etc.
+                               I love researching new things, writing about them and sharing those findings with other people.<br/><br/>
+
+                               Lately I am most interested in the future of work and education, programming, pizzas, old rome and greece, probabilistic thinking, 
+                               japanese culture in general, and many other topics.
                                 </p>
                              </Presentacion>
                    
@@ -170,22 +171,22 @@ const [subscribed, setSubscribed] = useState(false)
                 </Topleft>
                 <Presentacion2 className="about_me">
                                 <div css={{ height: '50%'}}>
-                                    Si eres una persona curiosa y te interesan estos temas, deberias suscribirte a las ya
-                                    mas de 150 personas en mi Newsletter.<br/><br/>
+                                    If you are also a curious person and you would like to hear about this subjects, you can join our small community of 150+ people
+                                    that are receiving my newsletter.<br/><br/>
                                 
                                 
-                              Es un email cada dos semanas en el que comparto información útil sobre las cosas que voy descubriendo o lo que estoy pensando de manera más directa.</div><br/>
+                              I send one short email every two weeks with the things I've found the most interesting and could be useful for you.</div><br/>
                             </Presentacion2>
 
             
                 <form  action={process.env.REACT_APP_MAILCHIMP_URL} method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
                          novalidate css={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start', width: '90%', paddingLeft: 20, alignItems: 'center'}}>
-                     <input type='email' name="EMAIL" placeholder="   Tu mejor email..." css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
+                     <input type='email' name="EMAIL" placeholder="Your favorite email :)" css={{width: '55%', borderRadius: 5, height: 23, border: '1px solid darkgrey', 
                      fontFamily: 'Merriweather', marginRight: '3%', 
                      padding: 8, paddingLeft: 15, textAlign: 'left', fontSize: '0.9rem'}}/>
-                     <button css={{ color: 'white', background: '#e89049', height: 60, minWidth: 180, fontWeight: 500, fontSize: '0.9rem', letterSpacing: 0.5,
+                     <button css={{ color: 'white', background: '#e89049', height: 60, minWidth: 200, fontWeight: 600, fontSize: '1rem', letterSpacing: 0.5,
                      border: 'none', borderRadius: 5, '&:hover': {cursor: 'pointer', background: '#dc7727', transitionDuration: '1s'}}}>
-                         Suscribete</button>
+                         Send me that fun info!</button>
             </form> 
             <div css={{display:'flex', flexDirection: 'row', alignItems: 'center', width: '40%' }}>
                 <div css={{width: '70%', 
@@ -195,21 +196,19 @@ const [subscribed, setSubscribed] = useState(false)
                            lineHeight: '1.6rem',
                            letterSpacing: 1,
                            paddingLeft: 30
-            }} className="about_me">Espero lo disfruten,<br/>
+            }} className="about_me">Hope you enjoy,<br/><br/>
 
                 Jose </div>
             </div>
             <Icons>
-                {/* <Icon></Icon>
-                <Icon></Icon>
-                <Icon></Icon> */}
+
                                 <a href="https://twitter.com/josegocampo"><Icon src={twitter}/></a>
                                 <a href="https://www.linkedin.com/in/joseocampo/?locale=en_US"><Icon src={yt}/></a>
                                 <a href="https://github.com/josegocampo"><Icon src={talk}/></a>
                            </Icons> 
 
                            <div css={{margin: '0 auto', width: '100%', color: '#aaa', borderTop: '1px solid #aaa', marginTop: 61, 
-            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20}}>© Jose Ocampo, 2020 | Todo hecho a mano</div>
+            textAlign: 'center', fontSize: '0.7rem', paddingTop: 20}}>© Jose Ocampo, 2020 | Everything done by this two hands</div>
             
        
 {/* <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} /> */}

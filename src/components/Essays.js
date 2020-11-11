@@ -113,9 +113,9 @@ const Proyects = () => {
         <Tutto>
             
              <LinkBox>        
-                             <Headline className="titulo" css={{fontSize: '3.7rem', marginBottom: 10}}>Artículos</Headline> 
+                             <Headline className="titulo" css={{fontSize: '3.7rem', marginBottom: 10}}>Essays</Headline> 
                              <Link to ="/conway"><Article css={{borderTop: '1px solid lightgrey'}}> 
-                              <Titulo className="titulo" >Un Genio Mágico y su Juego de la Vida</Titulo>
+                              <Titulo className="titulo" >ESP | Un Genio Mágico y su Juego de la Vida</Titulo>
                                <Subtitulo>John Conway creó el Juego de La Vida, un automata celular
                                  con unas propiedades insospechadas.
                                </Subtitulo>
