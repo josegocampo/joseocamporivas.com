@@ -7,10 +7,10 @@ import Typing from 'react-typing-animation';
 import { Link } from "react-router-dom";
 import {device} from './utils/MQs'
 import '../App.css';
-import twitter from '../images/twitter1.png' 
-import talk from '../images/github1.png' 
-import yt from '../images/linkedin1.png' 
-import yoback from '../images/me2.png';
+import twitter from '../images/twitter3.png' 
+import talk from '../images/github2.png' 
+import yt from '../images/linkedin3.png' 
+import yoback from '../images/yoback.png';
 
 
 function Landing(){
