@@ -1,5 +1,5 @@
-import { jsx, css } from '@emotion/core'
+import { jsx, css } from '@emotion/core';
 
-export const ble =css({
-    background: 'red'
-})
+export const ble = css({
+  background: 'red',
+});

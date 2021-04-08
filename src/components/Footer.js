@@ -1,11 +1,10 @@
-import { jsx, css } from '@emotion/core'
-import React from 'react'
-import styled from "styled-components";
-import {device} from './utils/MQs'
+import { jsx, css } from '@emotion/core';
+import React from 'react';
+import styled from 'styled-components';
+import { device } from './utils/MQs';
 
-const Footer  = () =>{
-
-const Footer = styled.div`
+const Footer = () => {
+  const Footer = styled.div`
   margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
@@ -28,13 +27,9 @@ const Footer = styled.div`
   }
   
  
-`
+`;
 
-
-return(
-<Footer>© Jose Ocampo, 2020 | Todo hecho a mano</Footer>
-)
-}
-
+  return <Footer>© Jose Ocampo, 2020 | Todo hecho a mano</Footer>;
+};
 
 export default Footer;

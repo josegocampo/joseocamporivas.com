@@ -1,31 +1,27 @@
 const size = {
-    mobileXS: '345px',
-    mobileS: '365px',
-    mobileM: '375px',
-    mobileL: '468px',
-    tabletS: '650px',
-    tablet: '700px',
-    laptop: '1024px',
-    laptopL: '1440px',
-    desktop: '2560px'
-  }
+  mobileXS: '345px',
+  mobileS: '365px',
+  mobileM: '375px',
+  mobileL: '468px',
+  tabletS: '650px',
+  tablet: '700px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px',
+};
 
-  export const device = {
-    mobileXS:`(max-width: ${size.mobileXS})`,
-    mobileS: `(max-width: ${size.mobileS})`,
-    mobileM: `(max-width: ${size.mobileM})`,
-    mobileL: `(max-width: ${size.mobileL})`,
-    tabletS: `(max-width: ${size.tabletS})`,
-    tablet: `(max-width: ${size.tablet})`,
-    laptop: `(min-width: ${size.tablet})`,
-    laptopL: `(min-width: ${size.laptopL})`,
-    desktop: `(min-width: ${size.desktop})`,
-    desktopL: `(min-width: ${size.desktop})`
-  };
-
-
-
-  
+export const device = {
+  mobileXS: `(max-width: ${size.mobileXS})`,
+  mobileS: `(max-width: ${size.mobileS})`,
+  mobileM: `(max-width: ${size.mobileM})`,
+  mobileL: `(max-width: ${size.mobileL})`,
+  tabletS: `(max-width: ${size.tabletS})`,
+  tablet: `(max-width: ${size.tablet})`,
+  laptop: `(min-width: ${size.tablet})`,
+  laptopL: `(min-width: ${size.laptopL})`,
+  desktop: `(min-width: ${size.desktop})`,
+  desktopL: `(min-width: ${size.desktop})`,
+};
 
 // const cuerpo = css({
 //     margin: '0 auto',
@@ -34,7 +30,6 @@ const size = {
 //     width: 700,
 //     alignItems: 'flex-start',
 //   })
-
 
 // const topleft = css({
 //     margin: '0 auto',
@@ -78,7 +73,6 @@ const size = {
 //     width: '83%'
 //   })
 
-
 // const images = css({
 //     display: 'flex',
 //     flexDirection: 'column',
@@ -102,7 +96,7 @@ const size = {
 //     justifyContent: 'space-between',
 //     marginLeft: 275,
 //     marginTop: 10
-   
+
 // })
 
 // const icon = css({

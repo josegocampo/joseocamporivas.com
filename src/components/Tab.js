@@ -1,22 +1,19 @@
-import React, { useContext, useState } from 'react'
-import TabContext from './TabContext'
+import React, { useContext, useState } from 'react';
+import TabContext from './TabContext';
 
+const Tab = ({ children }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
 
-const Tab = ({children}) => {
-    const [activeIndex, setActiveIndex] = useState(0)
-   
-    const changeIndex = {
-        activeIndex,
-        setActiveIndex}
+  const changeIndex = {
+    activeIndex,
+    setActiveIndex,
+  };
 
-    return (
+  return (
     <div>
-    <TabContext.Provider value={changeIndex} >
-        {children}
-    </TabContext.Provider>
+      <TabContext.Provider value={changeIndex}>{children}</TabContext.Provider>
     </div>
-    )
-}
+  );
+};
 
-
-export default Tab
+export default Tab;

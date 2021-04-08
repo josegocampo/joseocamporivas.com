@@ -1,9 +1,5 @@
-import React, {useContext, useState} from 'react'
+import React, { useContext, useState } from 'react';
 
+const TabContext = React.createContext();
 
-const TabContext = React.createContext()
-
-
-
-
-export default TabContext
+export default TabContext;

@@ -1,29 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&family=PT+Serif&display=swap');
 
-
-
-.navs{
+.navs {
   font-family: 'Open Sans', sans-serif;
 }
-.titulo{
+.titulo {
   font-family: 'Lato', sans-serif;
-
 }
 
-p{
+p {
   margin-bottom: 25px;
 }
 .essay {
   text-align: left;
-  animation: fadeInAnimation ease 3s; 
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards; 
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   font-size: 1rem;
   line-height: 1.7rem;
   font-weight: 500;
   padding: 15px;
-
-} 
+}
 
 .about {
   font-size: 1rem;
@@ -31,29 +27,28 @@ p{
   font-weight: 500;
   padding: 15px;
   color: #333333;
-} 
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-    } 
-} 
-
- 
-
-  h2{
-    font-size: 1.4rem;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
   }
-
-  ol,ul{
-    margin-bottom: 35px;
+  100% {
+    opacity: 1;
   }
-li{
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+ol,
+ul {
+  margin-bottom: 35px;
+}
+li {
   margin-bottom: 10px;
 }
-.color-mode{
+.color-mode {
   height: 12px;
   width: 12px;
   display: flex;
@@ -71,156 +66,148 @@ li{
   width: 15px;
   border-radius: 0px;
   } */
-  /* } */
-.clr{
-  width:20px;
+/* } */
+.clr {
+  width: 20px;
   cursor: pointer;
 }
-.me{
-width: 150px;
+.me {
+  width: 150px;
 }
 
-.me2{
+.me2 {
   width: 70px;
-  }
-  
-.dado{
-width: 20px;
+}
+
+.dado {
+  width: 20px;
 }
 .logo {
-width: 40px;
-margin-bottom: 20px;
+  width: 40px;
+  margin-bottom: 20px;
 }
 
-.about_me{
-  /* font-family: 'PT Sans', sans-serif; */
-  color:#333;
-  font-smooth: never;
-  -webkit-font-smoothing : none; 
+.about_me {
+  color: #333;
 }
 
-
-.typewriter{
+.typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em dotted black; /* The typwriter cursor */
+  border-right: 0.15em dotted black; /* The typwriter cursor */
   white-space: break-spaces; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
+input,
+select,
+textarea {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 
+a {
+  text-decoration: none;
+  color: rgb(0, 175, 240);
+}
 
-  input, select, textarea {
-    border:none;
-    background-image:none;
-    background-color:transparent;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-  }
-  
-  a{ 
-    text-decoration: none;
-    color: rgb(0, 175, 240);
- 
-  }
+a:hover {
+  color: #e89049;
+}
 
-  a:hover {
-    color: #e89049;
-  };
-
-
-
-
-  
-.grid{
+.grid {
   margin: 0 auto;
   margin-top: 30px;
   border-radius: 10px;
   border: 5px solid #583182;
-
 }
-.rows{
+.rows {
   display: flex;
   flex-direction: row;
-
 }
 
-.dead{
-  display:flex;
+.dead {
+  display: flex;
   flex-direction: column;
   width: 10px;
   height: 10px;
   background: black;
   border: 1px dotted #583182;
-
-
 }
 
-.alive{
-  display:flex;
+.alive {
+  display: flex;
   flex-direction: column;
   background: #c5cbff;
   width: 10px;
   height: 10px;
   border: 1px dotted #583182;
-
 }
 
-.wtf{
-  display:flex;
+.wtf {
+  display: flex;
   flex-direction: column;
-  background: #F6019D;
+  background: #f6019d;
   width: 10px;
   height: 10px;
   border: 1px dotted #583182;
 }
 
-.bro{
-  display:flex;
+.bro {
+  display: flex;
   flex-direction: column;
-  background: #FF6C11;
+  background: #ff6c11;
   width: 10px;
   height: 10px;
   border: 1px dotted #583182;
 }
 
-.ble{
-  display:flex;
+.ble {
+  display: flex;
   flex-direction: column;
-  background: #FF3864;
+  background: #ff3864;
   width: 10px;
   height: 10px;
   border: 1px dotted #583182;
 }
 
-.color{
-  display:flex;
+.color {
+  display: flex;
   flex-direction: column;
-  background: #2DE2E6;
+  background: #2de2e6;
   width: 10px;
   height: 10px;
   border: 1px dotted #583182;
 }
 
-.redmode{
+.redmode {
   color: red;
- 
 }
 
 .off:hover {
@@ -228,42 +215,38 @@ margin-bottom: 20px;
   cursor: pointer;
 }
 
-
-.special{
+.special {
   list-style-type: none;
   color: red;
 }
 
-.titles:hover{
-  cursor: pointer
+.titles:hover {
+  cursor: pointer;
 }
 
-.titles{
+.titles {
   list-style-type: none;
 }
 
-.titles:hover{
-  cursor: pointer
+.titles:hover {
+  cursor: pointer;
 }
 
-.Dropdown-option:last-of-type{
-  color:red;
-
+.Dropdown-option:last-of-type {
+  color: red;
 }
 
-.remo{
+.remo {
   width: 200px;
 }
 
-.drop{
+.drop {
   width: 200px;
   position: absolute;
   float: left;
 }
 
-
-.other{
+.other {
   width: 80px;
   color: purple;
 }
-

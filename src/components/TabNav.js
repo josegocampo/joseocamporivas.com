@@ -1,37 +1,37 @@
-import React, { useEffect, useState, useContext } from 'react'
-import styled from "styled-components";
+import React, { useEffect, useState, useContext } from 'react';
+import styled from 'styled-components';
 import logo from '../images/mejorcalidad.png';
-import TabContext from './TabContext'
+import TabContext from './TabContext';
 
+const TabNav = ({ titles }) => {
+  //this constant gets the names of the components and uses them as titles, alternatively you could also just
+  //pass an array of props with the desired title names, but this is less code I think
+  const { activeIndex, setActiveIndex } = React.useContext(TabContext);
 
-const TabNav = ({titles}) =>{
-    //this constant gets the names of the components and uses them as titles, alternatively you could also just 
-    //pass an array of props with the desired title names, but this is less code I think
-    const {activeIndex, setActiveIndex} = React.useContext(TabContext)
-    
-    return (
+  return (
+    <div>
+      {titles.map((title, index) => (
+        <button
+          className={activeIndex === index ? 'active' : 'not'}
+          onClick={() => {
+            setActiveIndex(index);
+          }}
+        >
+          {title}
+        </button>
+      ))}
+    </div>
+  );
+};
 
-        <div>
-            {titles.map((title, index) => (<button className={activeIndex === index ? 'active' : 'not'} onClick={() => {
-                setActiveIndex(index)
-            }}>{title}</button>))} 
-        </div>
-    )
-}
-
-
-
-export default TabNav
-
-
-
+export default TabNav;
 
 // import * as React, {useContext, useState} from 'react'
 // import * as ReactDOM from 'react-dom'
 
 // let activeIndex = 0
 
-// const TabContext = React.createContext({ 
+// const TabContext = React.createContext({
 //     activeIndex,
 //     setActiveIndex: (index) => {
 //         activeIndex = index
@@ -64,7 +64,7 @@ export default TabNav
 //         <div>
 //             {titles.map((title, index) => (<button className={activeIndex === index ? 'active' : 'not'} onClick={() => {
 //                 setActiveIndex(index)
-//             }}>{title}</button>))} 
+//             }}>{title}</button>))}
 //         </div>
 //     )
 // }
@@ -81,7 +81,6 @@ export default TabNav
 // const C = () => (<div></div>)
 
 // App
-    // const [channels, setChannels] = useState([{}])
+// const [channels, setChannels] = useState([{}])
 // Renders each Channel
 // Each channel renders a Tab
-
