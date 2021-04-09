@@ -118,9 +118,7 @@ function Landing() {
           }}
           className="about_me"
         >
-          Hope you enjoy,
-
-          Jose
+          Hope you enjoy, Jose
         </div>
       </div>
       <Icons>
@@ -157,124 +155,122 @@ function Landing() {
 
 export default Landing;
 
-
-
 const Cuerpo = styled.div`
-margin: 0 auto;
-margin-top: 10px;
-display: flex;
-flex-direction: column;
-max-width: 700px;
-align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  align-items: flex-start;
 
-@media ${device.mobileS} {
-  max-width: 320px;
-}
+  @media ${device.mobileS} {
+    max-width: 320px;
+  }
 `;
 
 const Topleft = styled.div`
-margin: 0 auto;
-display: flex;
-flex-direction: row;
-text-align: left;
-align-items: center;
-justify-content: space-around;
-@media ${device.mobileL} {
-  flex-direction: column-reverse;
-  align-items: flex-start;
-}
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  justify-content: space-around;
+  @media ${device.mobileL} {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 `;
 
 const Presentacion = styled.div`
-color: #333;
-margin: 0 auto;
-flex-direction: column;
-font-size: 1.3rem;
-font-weight: 500;
-line-height: 1.7rem;
-display: flex;
-align-items: center;
-width: 66%;
-display: flex;
-flex-direction: column;
-text-align: left;
-justify-content: flex-end;
-padding-left: 20px;
-@media ${device.mobileL} {
-  width: 90%;
-}
+  color: #333;
+  margin: 0 auto;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  display: flex;
+  align-items: center;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-end;
+  padding-left: 20px;
+  @media ${device.mobileL} {
+    width: 90%;
+  }
 `;
 
 const Presentacion2 = styled.div`
-color: #333;
-font-size: 1.3rem;
-font-weight: 500;
-line-height: 1.7rem;
-margin-right: 20px;
-display: flex;
-flex-direction: column;
-text-align: left;
-padding-left: 20px;
-width: 91%;
-margin-top: 5px;
-@media ${device.mobileL} {
-  width: 90%;
-  padding-left: 30px;
-}
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+  width: 91%;
+  margin-top: 5px;
+  @media ${device.mobileL} {
+    width: 90%;
+    padding-left: 30px;
+  }
 `;
 
 const Images = styled.div`
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-width: 33%;
-margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33%;
+  margin-right: 20px;
 
-@media ${device.mobileL} {
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 15px;
-}
+  @media ${device.mobileL} {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
 `;
 
 const Img = styled.img`
-border-radius: 50%;
-width: 200px;
-@media ${device.tablet} {
-  width: 150px;
-}
+  border-radius: 50%;
+  width: 200px;
+  @media ${device.tablet} {
+    width: 150px;
+  }
 `;
 
 const Icons = styled.div`
-margin: 0 auto;
-width: 140px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-marginleft: 275px;
-margin-top: 10px;
+  margin: 0 auto;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  marginleft: 275px;
+  margin-top: 10px;
 `;
 
 const Icon = styled.img`
-width: 30px;
-margin-top: 20px;
-&:hover {
-  cursor: pointer;
-}
+  width: 30px;
+  margin-top: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 const Titulo = styled.div`
-font-size: 4rem;
-width: 90%;
-padding-left: 20px;
-color: #3c3c3c;
+  font-size: 4rem;
+  width: 90%;
+  padding-left: 20px;
+  color: #3c3c3c;
 
-@media ${device.tablet} {
-  font-size: 2.8rem;
-  margin-top: 10px;
-}
-@media ${device.mobileL} {
-  margin-top: 30px;
-  text-align: center;
-}
+  @media ${device.tablet} {
+    font-size: 2.8rem;
+    margin-top: 10px;
+  }
+  @media ${device.mobileL} {
+    margin-top: 30px;
+    text-align: center;
+  }
 `;

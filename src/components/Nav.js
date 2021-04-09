@@ -42,7 +42,7 @@ export default Nav;
 
 const Navigator = styled.div`
   margin: 0 auto;
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: flex-start;
   font-size: 0.9rem;
@@ -66,10 +66,8 @@ const NavaLinks = styled.div`
   margin: 0 auto;
   display: flex;
   width: 80%;
-  height: 60px;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 100%;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: space-between;

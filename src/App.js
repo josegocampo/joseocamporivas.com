@@ -9,8 +9,7 @@ import About from './components/About';
 import Proyects from './components/Proyects';
 import Course from './components/Course';
 import Cgol from './components/Cgol';
-import Conway from './components/Conway';
-import Program from './components/Program';
+import WtW from './components/WtW';
 import Essays from './components/Essays';
 import Esperanza from './components/Esperanza';
 import Hellosaurus from './components/Hellosaurus';
@@ -29,7 +28,7 @@ function App() {
         <Route exact path="/cgol" component={Cgol} />
         <Route exact path="/about" component={About} />
         <Route exact path="/essays" component={Essays} />
-        <Route exact path="/conway" component={Conway} />
+        <Route exact path="/wtw" component={WtW} />
         <Route exact path="/esperanza" component={Esperanza} />
         <Route exact path="/hellosaurus" component={Hellosaurus} />
         <Route exact path="/test" component={Test} />

@@ -60,11 +60,10 @@ const Proyects = () => {
     margin-bottom: 15px;
     text-align: left;
     font-weight: 700;
-  
-    @media ${device.mobileL}{
+
+    @media ${device.mobileL} {
       font-size: 2.2rem;
-  
-  
+    }
   `;
 
   const Titulo = styled.div`
@@ -76,10 +75,9 @@ const Proyects = () => {
     &:hover {
       color: rgb(102 184 222);
     }
-    @media ${device.mobileL}{
+    @media ${device.mobileL} {
       font-size: 2rem;
-  
-  
+    }
   `;
 
   const Subtitulo = styled.div`
@@ -102,12 +100,11 @@ const Proyects = () => {
           <Headline className="titulo" css={{ fontSize: '3.7rem', marginBottom: 10 }}>
             Essays
           </Headline>
-          <Link to="/conway">
+          <Link to="/wtw">
             <Article css={{ borderTop: '1px solid lightgrey' }}>
-              <Titulo className="titulo">ESP | Un Genio Mágico y su Juego de la Vida</Titulo>
+              <Titulo className="titulo">Write to create Wealth</Titulo>
               <Subtitulo>
-                John Conway creó el Juego de La Vida, un automata celular con unas propiedades
-                insospechadas.
+              Rationalizing why Im putting in the effort to create a writing habit.
               </Subtitulo>
             </Article>
           </Link>

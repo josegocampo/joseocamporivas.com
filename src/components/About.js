@@ -16,45 +16,47 @@ const About = () => {
           </p>
 
           <p>
-            I am looking to participate in proyects that:
+            I am looking to participate in proyects that:<br/><br/>
             <ol>
-              <li>
-                Are interesting to me. - subjective, but maybe you can get an idea for what this
+              <li/>Are interesting to me. - subjective, but maybe you can get an idea for what this
                 means after browswing trough my site a bit-
-              </li>
-              <li>Look to improve the quality of life of a large group of people.</li>
-              <li>
-                Usually proyects that are in the early to mid early stages, love being involved with
-                the development of things..
-              </li>
-              <li>Incentive curiosity and are opportunities to learn.</li>
-              <li>
-                Value to participants involved and reward them appropiately to their contributions.
-              </li>
+              
+              <li/>Look to improve the quality of life of a large group of people.
+
+              <li/>Usually proyects that are in the early to mid early stages, love being involved with
+                the development and planning of things.
+
+              <li/>Incentivize curiosity and give opportunities to learn.
+
+              <li/>Value to participants involved and reward them appropiately to their contributions.
+
             </ol>
           </p>
 
           <p>
-            Programming is what allows me to come the closest and with most efficiency to those
-            purposes, so that is the main tool I use today, but that is only one side of me, I am
-            also a trained lawyer, a probabilistic thinker, good at design and drawing, I think of
+            Programming is what allows me today to come closest to those
+            purposes, so that is the main tool I use, but that is only one side of me, I am
+            also a lawyer, a probabilistic thinker, good at design and drawing, amazing at researching.  I think of
             myself more as a Full Stack problem solver and like to be involved in many different
             areas.
           </p>
 
           <p>
-            I guess that is why I have a preference for Startups and early stage projects usually,
+            I guess that is why I have a preference for Startups and early stage projects,
             because I can use my full range of skills and take advantage of my creativity to the
             fullest.
           </p>
 
           <p>
-            My main hobbies are reading, playing sports (golf, soccer, tennis), building apps,
-            cooking, and spending time with friends and family.
+            My main hobbies are building apps, reading, playing sports (golf, soccer, tennis),
+            cooking from scratch (specially pizza, ramen and indian cuisine), and spending time with friends and family.
           </p>
 
           <p>
-            My email is joseor@hey.com. I love reading from people all over the internet and even if
+            My email is joseor@hey.com.</p>
+            <p>
+            
+             I love reading from people all over the internet and even if
             It might take some time I respond to every single email, would love to hear about you
             and what you are doing.
           </p>
@@ -72,7 +74,7 @@ const About = () => {
               paddingBottom: 40,
             }}
           >
-            © Jose Ocampo, 2020 | Todo hecho a mano
+            © Jose Ocampo, 2021 | Everything made by hand
           </div>
         </Tutto>
       </Sides>
