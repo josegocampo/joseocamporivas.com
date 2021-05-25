@@ -33,7 +33,7 @@ const Proyects = () => {
     }
   `;
   const Article = styled.div`
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -101,11 +101,17 @@ const Proyects = () => {
             Essays
           </Headline>
           <Link to="/wtw">
-            <Article css={{ borderTop: '1px solid lightgrey' }}>
+            <Article>
               <Titulo className="titulo">Write to create Wealth</Titulo>
               <Subtitulo>
-              Rationalizing why Im putting in the effort to create a writing habit.
+                Rationalizing why Im putting in the effort to create a writing habit.
               </Subtitulo>
+            </Article>
+          </Link>
+          <Link to="/inchworm">
+            <Article>
+              <Titulo className="titulo">The Inchworm Technique</Titulo>
+              <Subtitulo>A framework to improve in anything you do.</Subtitulo>
             </Article>
           </Link>
         </LinkBox>
