@@ -14,7 +14,7 @@ import Essays from './components/Essays';
 import Esperanza from './components/Esperanza';
 import Hellosaurus from './components/Hellosaurus';
 import Test from './components/Test';
-import Inchworm from './components/Inchworm';
+import LawyerToHacker from './components/LawyerToHacker';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/essays" component={Essays} />
         <Route exact path="/wtw" component={WtW} />
-        <Route exact path="/inchworm" component={Inchworm} />
+        <Route exact path="/lth" component={LawyerToHacker} />
         <Route exact path="/esperanza" component={Esperanza} />
         <Route exact path="/hellosaurus" component={Hellosaurus} />
         <Route exact path="/test" component={Test} />

@@ -108,10 +108,10 @@ const Proyects = () => {
               </Subtitulo>
             </Article>
           </Link>
-          <Link to="/inchworm">
+          <Link to="/lth">
             <Article>
-              <Titulo className="titulo">The Inchworm Technique</Titulo>
-              <Subtitulo>A framework to improve in anything you do.</Subtitulo>
+              <Titulo className="titulo">From Lawyer to Hacker </Titulo>
+              <Subtitulo>On my journey from Law to Programming</Subtitulo>
             </Article>
           </Link>
         </LinkBox>

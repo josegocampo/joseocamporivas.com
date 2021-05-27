@@ -8,7 +8,7 @@ import '../App.css';
 import mejor from '../images/mejorcalidad.png';
 import venice from '../images/venice.png';
 
-function WtW() {
+function LawyerToHacker() {
   const [color, setColor] = useState('white');
 
   const Bod = styled.div`
@@ -264,7 +264,7 @@ function WtW() {
         >
           <div className="essay">
             <Titulo css={{ marginTop: 20 }} className="titulo">
-              Write to create Wealth
+              From Lawyer to Hacker
             </Titulo>
             <Image>
               {' '}
@@ -272,7 +272,7 @@ function WtW() {
               <span css={{ color: 'rgb(152 152 152)', fontSize: '0.9rem' }}>
                 <span css={{ color: 'pink' }}>Jose Ocampo</span>
                 <br />
-                April 28th, 2021 · 3 minutes reading time
+                May 21, 2021 · 4 minutes reading time
               </span>
             </Image>
             <p
@@ -283,101 +283,116 @@ function WtW() {
                 marginTop: '15px',
               }}
             >
-              Rationalizing why Im putting in the effort to create a writing habit.
+              Why I dropped the suit and decided to become a programmer.
             </p>
             <p>
-              Writing does not come naturally to me, I have never been one to spontaneously sit down
-              and write. I dont know why this is to be honest, seeing that I enjoy it quite a lot
-              when I do it.
+              After 6 years as an Online Professional Poker Player, which seemed like a whole
+              career, It was time to decide my next move.
             </p>
             <p>
-              Maybe it comes down to my skeptical nature (a habit Im trying to get rid off), why
-              would other people be interested in reading what I have to say?{' '}
+              Poker provided some of the most fun times of my life, and it was incredibly mentally
+              challenging and competitive, two things I love. I had spent all my life being a good
+              student and had attended Law School but with Poker was when I really learned how to
+              study hard and earn my living.
             </p>
 
             <p>
-              Rationalizing that thought I know that it is clearly the wrong frame of mind. I am a
-              firm believer that writing has multiple benefits that go beyond even the most apparent
-              purpose of it, -communicating ideas in a fixed, time resistant format to others-.{' '}
+              On the other side, freedom, self-employment, a lot of money for a young kid is a
+              helluva combination.
             </p>
             <p>
-              So, I have spent some time thinking about this, and I think my motivation for writing
-              comes down to wealth creation. That is the macro purpose of why I want to write often.
+              I battled some of the best, got a sponsorship, traveled all over the world, taught and
+              coached people from 11 different countries, but, it was clear that as much as I
+              enjoyed it at times (and at times hated it), Poker wasn't the passion project of my
+              life.{' '}
             </p>
             <p>
-              There is a really cool essay I read some time ago from Paul Graham which relates to
-              this. It feels it is so cliche and over used to quote him at this point, but I think
-              that is, again, the wrong frame to put things in, so allow me to make a stop.
+              Neither was it sustainable long-term anymore, Black Friday **link**, Game Theory
+              Optimization software, bots, too many good pro competitors, and too few recreational
+              players, were making it incredibly hard and stressful to make a good living at it, and
+              the mid and long term looked very unattractive.
             </p>
             <p>
               {' '}
-              A much less quoted individual, Philip Rosenthal, a TV personality and host of a
-              Netflix show called "Somebody Feed Phil", in one of the shows episodes wisely reasons:
+              Still young at 28 years old I already had almost 3.5 -out of 6- years of Law School
+              credits on my belt, and seeing as being a Lawyer brings a lot of potentially useful
+              benefits I took to finish that while I thought about my next move.
             </p>
 
             <p>
-              "My favorite quote from baseball legend Yogi Berra is 'Nobody goes there anymore, it's
-              too crowded', that is what smart sophisticasted world travellers would probably say
-              about Venice, why go? there are so many tourists, it's over run, why would you go to
-              such a turisty place?"
+              As I was already going back to finish it, I thought I might as well get a bit of
+              experience on the subject at hand and took an opportunity to work at an entry position
+              as an associate in a Corporate Law firm.
             </p>
-            <p>And then he shouts: "Because it looks like this!"</p>
+            <p>It was everything I expected it to be, ...boring.</p>
+
             <p>
-              <Img src={venice} />
-              <span style={{ color: 'grey', fontSize: '0.9rem' }}>
-                Yes, i just compared Paul Graham with Venice
-              </span>
-            </p>
-            <p>
-              The point is, there is a reason why the man gets quoted so much, it's like the views
-              in Venice, everywhere you look there is something precious.
+              Plenty of repetitive tasks, outdated hardware, and software, going over case files
+              that seemed meaningless looking for loopholes, grueling manual tasks, filing physical
+              documents, looking for lost notary papers, the whole package.
             </p>
             <p>
-              Anyways, the essay I read from PG is called{' '}
-              <a href="http://paulgraham.com/wealth.html">How to Make Wealth</a>, there he talks
-              about something which really opened my eyes: "wealth is not the same as money, in
-              fact, it's far from it, we can all create wealth by bringing new things into
-              existence".
+              Well, It wasn’t all bad, to be honest, I had to do a few research assignments which I
+              enjoyed quite a bit, looking for new solutions to unsolved problems is something I
+              love to do.
             </p>
             <p>
-              He also talks about something he calls the Pie Fallacy. A lot of people think that the
-              amount of wealth in the world is fixed, and it cant change. That is not true, you can
-              create wealth and add to the world without necessarily taking away from others.
+              I even managed to get a big win for the firm. I found a solution for a multi-million
+              dollar regulatory issue involving a big real state project that was going to be shut
+              down by authorities, and I solved it while being the most junior person on the firm
+              and having 5 lawyers on the case, all while getting paid close to minimum wage, lol.
             </p>
             <p>
-              So, creating new things literally creates wealth, in the form of potential value, to
-              you and others, there was no essay before I decided to sit down for the 5th time today
-              and actually start tiping, and now it exists.
+              You'd imagine I'd get an instant long-term offer and a pay jump of course, but no, the
+              form of payment was not even being told when we presented the solution to the client,
+              with a report which I wrote 80%+ of.
             </p>
             <p>
-              Will it create much wealth? I doubt that it will directly, but who knows the actual
-              value of this tweet in its indirect dimensions, it is, after all, the start of my
-              writing habit, it could lead me down any unexpected road, it could inspire someone,
-              even if it's one person that reads it, it is impossible to calculate its real value at
-              this time.
+              Not that I was owed anything, I was just doing my job, but I'd probably handle things
+              differently if it was me.
             </p>
             <p>
-              Passively consuming is enteraining of course, we all need a certain amount of that
-              too, but the average person nowadays consumes a lots more than they need and produces
-              a lot less, and that is not good because we are losing a lot of wealth in the world
-              that way, so one of my objectives is to place myself on the other side of the scale.
+              Anyways, I have never seen a redder red face than the one of the Partner in charge of
+              the case when I, innocently, asked him when we’re presenting the case to the client
+              and he told me we already had yesterday.
             </p>
             <p>
-              And that is my main reason, there are many other benefits of writing that I want to
-              talk about in other occasions but the most important one is that I'm doing this to
-              create wealth, to bring something into existence that wasn't there before, words,
-              pages, visibility, inspiration, connections, possibilities.
+              The drop that filled the glass was when I presented the Partners with a piece of
+              software I had found that was already being used in several other countries that could
+              help us reduce our case tracking time by around 4 hours per day. Considering the
+              average hourly rate of a junior associate was around $200 dollars per hour, I thought,
+              they are going to love me for this!, $800 saved per day, which could be upwards of 16k
+              a month.
             </p>
             <p>
-              As magic as this age of leverage is, the minimum requirement to participate in it's
-              gains is putting yourself out there, you have to actually produce something of value
-              to you or other people to really reap it's benefits. You never know where you could
-              end up, but you have to be willing to be vulnerable and put yourself out there.
+              To my surprise, yes I still had some left in me at the time, they told me they were
+              going to look into it, and after my inquiry the next day they told me thanks but no
+              thanks.
             </p>
             <p>
-              This is my first step towards that vulnerability, and all the benefits it can bring.
+              I later realized, after talking with countless other lawyers and gaining more industry
+              experience, there are only a certain amount of hours each attorney can work each day,
+              and the Firm charges its clients by the number of hours their employers spend working
+              for them, so little do they care if an attorney can do 5, or 10 times the work in one
+              hour, they still only have an hour to charge for, so the incentive to innovate or
+              optimize is just not there, they don’t even consider it, its negligible,
+              uninteresting.
             </p>
-            <p>Hope you join me!</p>
+            <p>
+              It was enough evidence for me to prove that this was going to be a short career in
+              Corporate Law, so, I started looking for ways to get into programming, which had a lot
+              more to do with the innovative and problem-solving environment I had been used to
+              while playing poker and provided the connection to the digital world, where I had
+              always been immersed from a young age, online forums (yay gamewinners.com), online
+              games, etc.
+            </p>
+            <p>
+              That is when I found about Lambda School and I started dabbling into software
+              development and computer science, a decision which I couldn’t be happier and more
+              grateful for.
+            </p>
+            <p>The rest will be a story for another day :)</p>
+            <p>Thanks for reading this far</p>
           </div>
         </div>
       </Sides>
@@ -400,4 +415,4 @@ function WtW() {
   );
 }
 
-export default WtW;
+export default LawyerToHacker;
