@@ -138,7 +138,7 @@ function LawyerToHacker() {
     alignItems: 'flex-start',
     position: 'fixed',
     zIndex: 1,
-    height: 45,
+    height: 70,
     marginTop: 70,
     width: '7%',
     marginRight: 20,
