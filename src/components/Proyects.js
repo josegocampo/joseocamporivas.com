@@ -12,7 +12,6 @@ import espz from '../images/espz.jpg';
 const Proyects = () => {
   const Tutto = styled.div`
     margin: 0 auto;
-    padding-top: 30px;
     max-width: 730px;
     display: flex;
     flex-direction: column;
@@ -64,7 +63,7 @@ const Proyects = () => {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 5px;
     font-size: 0.8rem;

@@ -33,9 +33,9 @@ function Landing() {
             practicing sports.
             <br />
             <br />
-            Lately I am most interested in the future of education, building good lasting habits,
-            cooking Ramen from scratch, and building software experiments that hopefully one day
-            will become big.
+            Lately I am most interested in the future of education and collaboration, building good
+            lasting habits, startups, and building software experiments that hopefully one day will
+            become big.
           </p>
         </Presentacion>
 
@@ -46,7 +46,7 @@ function Landing() {
       <Presentacion2 className="about_me">
         <div css={{ height: '50%' }}>
           If you are also a curious person and would like to hear about what I'm doing, you can join
-          our small community of 150+ people that are receiving my newsletter.
+          our community of 150+ people that receive my newsletter every week.
           <br />
           <br />I send one short email on Mondays with things that I have found that are interesting
           and or useful.
