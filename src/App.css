@@ -16,14 +16,14 @@ p {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   font-size: 1.2rem;
-  line-height: 1.7rem;
+  line-height: 2rem;
   font-weight: 500;
   padding: 15px;
 }
 
 .about {
   font-size: 1.1rem;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
   font-weight: 500;
   padding: 15px;
   color: #333333;
