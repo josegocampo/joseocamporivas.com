@@ -265,7 +265,7 @@ function Maven() {
         >
           <div className="essay">
             <Titulo css={{ marginTop: 20 }} className="titulo">
-              Write to create Wealth
+              Maven Application
             </Titulo>
             <Image>
               {' '}
@@ -273,7 +273,7 @@ function Maven() {
               <span css={{ color: 'rgb(152 152 152)', fontSize: '0.9rem' }}>
                 <span css={{ color: 'pink' }}>Jose Ocampo</span>
                 <br />
-                April 28th, 2021 · 3 minutes reading time
+                May 30th, 2021 · 4 minutes reading time
               </span>
             </Image>
             <p
@@ -284,7 +284,8 @@ function Maven() {
                 marginTop: '15px',
               }}
             >
-              Application for Maven's White-glove Course Lead position.
+              I talked with some of Maven's VIP creators and students to find out how we could
+              improve their experience while creating, running or attending to courses.
             </p>
             <div
               style={{
@@ -301,21 +302,25 @@ function Maven() {
               problems.
             </p>
             <p>
-              I felt the power of Cohort-Based Courses first hand after going through Lambda School
-              back in 2019, coming from Law School it was a huge shift in the experience of learning
-              and I am a big advocate for CBC since then.
+              I experienced the power of Cohort-Based Courses first hand after going through Lambda
+              School back in 2019, coming from Law School it was a huge shift in the experience of
+              learning and I have been a big advocate for CBC since then (running one myself last
+              year).
             </p>
 
             <p>
-              When I first learned about Maven was with this TechCrunch article that came out last
-              November, I instantly knew this was what I was looking for, so I took the initiative
-              to send an application email to Gagan to see if I could be of help and he pointed out
-              they were only looking for a Founding Engineer at the time and that I should check
-              back later, so here I am :)
+              I first learned about Maven when I read{' '}
+              <a href="https://techcrunch.com/2020/11/12/udemy-and-altmba-co-founders-return-to-edtech-with-a-new-stealthy-business/ ">
+                this TechCrunch article
+              </a>{' '}
+              that came out last November. I instantly knew this was what I was looking for, so I
+              took the initiative to send an application email to Gagan to see if I could be of help
+              and he pointed out they were only looking for a Founding Engineer at the time and that
+              I should check back later, so here I am.
             </p>
             <p>
               Now that you are hiring more aggressively I checked your careers page and thought I
-              could be a great fit for the White-glove Course lead
+              could be a great fit for the White-glove Course lead role.
             </p>
             <div
               style={{
@@ -328,31 +333,33 @@ function Maven() {
             </div>
             <p>
               I have a wide range of skills, being a Software Engineer (Full-Stack), Lawyer, and
-              online poker pro, I have acquired a unique mix of good soft and technical skills with
-              a very rational and probabilistic oriented approach to decisions but also am very good
-              with people.
+              former online poker pro, I have acquired a unique mix of soft and technical skills,
+              with a very rational and probabilistic oriented approach to decisions while still
+              being very good with people.
             </p>
             <p>
-              You guys have done a great job promoting Maven with White-gloves in this first phase
-              but eventually, White-gloves will be the rarest form of course format probably,
-              volume-wise, so in the event of some downtime, I think you will find my Software
+              You guys have done a great job promoting Maven with this popular creators in this
+              first phase, but eventually, do it for you courses, volume-wise, might be the rarest
+              format probably, so in the event of some downtime I think you will find my Software
               Engineering skills quite useful to optimize resources.
             </p>
 
             <p>
-              The same for prototyping new product ideas or building White-gloves facing specific
-              software.
+              The same for prototyping new product ideas or building White-glove facing software.
             </p>
-            <p>
-              I usually find my way into what I want by helping and then being mentored by top
-              individuals in the fields I get in, I am very good at doing that, and I think that is
-              a very important skill for this specific role.
-            </p>
-
+            <div
+              style={{
+                fontWeight: 600,
+                paddingTop: '20px',
+                paddingBottom: '10px',
+              }}
+            >
+              Doing my job.
+            </div>
             <p>
               I heard somewhere that the best way to get a job is to be doing it before you even get
-              it, so, I started contacting Maven's White-glove creators to see how we could help
-              them have a better experience and receive their feedback.
+              it, so, I started contacting Maven's VIP creators to see how we could help them have a
+              better experience and receive their overall feedback.
             </p>
             <p>
               I got answers from 50% of them (not bad for not having the job, yet), with some
@@ -380,8 +387,8 @@ function Maven() {
               but this was the most common feedback.
             </p>
             <p>
-              I am sure you are working on this, but I would love to help to prototype some parts of
-              the product and see what you have in mind for this.
+              I am sure this is something thats already on your mind, but I would love to help to
+              prototype some parts of the product and see what you are thinking in regards to this.
             </p>
             <div
               style={{
@@ -398,10 +405,10 @@ function Maven() {
             </p>
             <p>
               I know that Lenny, because we kept talking, didn’t go through Wes's 6-week intro
-              course, so that probably could have made things different, but of course, White-globes
-              won’t have the time to go through it mostly, so there is some potential to build some
-              guides, documentation or some kind of artifact that would serve as a guide for them as
-              backup while creating the courses.
+              course, so that probably could have made things different, but of course, this VIPs
+              won’t have the time to go through it mostly, so there is some potential to build
+              guides, documentation or other kind of artifacts that would serve as as backup for
+              them while creating the courses.
             </p>
             <div
               style={{
@@ -414,36 +421,63 @@ function Maven() {
             </div>
             <p>
               Greg specifically touched on the subject of community and upon further conversation,
-              he told me he would love to have some way to connect deeper while he is running the
-              course but also after it's done, so maybe some kind of fellowship could be a good idea
-              to implement.
+              he told me he would love to have some way to connect deeper with students, both while
+              running the course and after it's done, so maybe some kind of fellowship could be a
+              good idea to implement.
             </p>
             <p>
               This is, of course, a very hard problem to solve and one that many are trying to
-              figure out, but there is potential to explore some possibilities here, would love to
-              know what you guys have in mind for this, or if you figure it just falls out of the
-              scope of Maven.
+              figure out, but we could explore some possibilities here, I would love to know what
+              you guys have in mind for this, or if you think that maybe it just falls out of the
+              scope for Maven.
             </p>
             <p>
               I didn't stop there and I also contacted some students that had gone through Maven
               courses and gathered some feedback as well.
             </p>
             <p>
-              In general, the main feedback was that they felt there wasn’t much student-facing
-              software built yet, they thought group discussions were amazing, but that the feedback
-              for assignments was lacking and that was what they were the most interested about,
+              In general, the main thing they had to say was that they felt there wasn’t much
+              student-facing software built yet (again, early stages).
+            </p>
+            <p>
+              {' '}
+              They do think, mostly, that group discussions were great, but that the feedback for
+              assignments was lacking, and that was what they were the most interested about,
               getting feedback from the Creators that they admire (this last part was specifically
               regarding Li Jin's course).
             </p>
             <p>
-              Of course, White-gloves time is quite valuable and you can’t realistically expect them
-              to sit through the assignments of every student, but I think there might be potential
-              here to explore some fixed setups where students play different roles in group
-              assignments and have software that will help creators go through the projects in an
-              efficient way and give feedback without using too much time.
+              Of course, the time of this creators is quite valuable and you can’t realistically
+              expect them to sit through the assignments of every student, but I think there might
+              be potential here to explore some fixed setups where students play different roles in
+              group assignments and have software that will help creators go through the projects in
+              an efficient way and give feedback without using too much time.
             </p>
-            <p>The rest will be a story for another day :)</p>
-            <p>Thanks for reading this far</p>
+            <p>
+              I also have a conversation pending with David Zelniker, who was the Course Designer
+              for Greg Isenberg, he surely has a lot of valuable insight to share regarding the
+              experience of building a Maven CBC, so I am looking forward to that. I just didnt want
+              to wait so much to contact you guys because I figured a lot of people are going to be
+              applying.
+            </p>
+            <p>
+              I also took time to approach certain creators with considerable audiencies to see if
+              they would be interested in creating courses at Maven, I managed to get Arvid Kahl
+              <a href="https://twitter.com/arvidkahl"> @arvidkahl</a> interested, he just launched
+              his second book this week and has a passionate following and a lot of valuable content
+              to share with the world.
+            </p>
+            <p>
+              There are many cool courses waiting to be created, and so many things to experiment
+              with at Maven, I cant think of a better place to be working right now.
+            </p>
+            <p>
+              If there is any other role you have in mind that I could be a fit for, other than
+              Engineering, which Im open to discussing too, I would love to know.{' '}
+            </p>
+            <p>Hope to talk to you soon.</p>
+            <p>Best,</p>
+            <p>Jose</p>
           </div>
         </div>
       </Sides>
