@@ -303,9 +303,9 @@ function Maven() {
             </p>
             <p>
               I experienced the power of Cohort-Based Courses first hand after going through Lambda
-              School back in 2019, coming from Law School it was a huge shift in the experience of
-              learning and I have been a big advocate for CBC since then (running one myself last
-              year).
+              School back in 2019, coming from Law School it was a huge shift (for the better) in
+              the experience of learning and I have been a big advocate for CBC since then (running
+              one myself last year).
             </p>
 
             <p>
@@ -314,9 +314,9 @@ function Maven() {
                 this TechCrunch article
               </a>{' '}
               that came out last November. I instantly knew this was what I was looking for, so I
-              took the initiative to send an application email to Gagan to see if I could be of help
-              and he pointed out they were only looking for a Founding Engineer at the time and that
-              I should check back later, so here I am.
+              took the initiative to send an application email to Gagan to see if I could be of
+              help, and he pointed out they were only looking for a Founding Engineer at the time
+              and that I should check back later, so here I am.
             </p>
             <p>
               Now that you are hiring more aggressively I checked your careers page and thought I
@@ -334,13 +334,13 @@ function Maven() {
             <p>
               I have a wide range of skills, being a Software Engineer (Full-Stack), Lawyer, and
               former online poker pro, I have acquired a unique mix of soft and technical skills,
-              with a very rational and probabilistic oriented approach to decisions while still
-              being very good with people.
+              with a rational and probabilistic oriented approach to decisions while still being
+              very good with people.
             </p>
             <p>
-              You guys have done a great job promoting Maven with this popular creators in this
-              first phase, but eventually, do it for you courses, volume-wise, might be the rarest
-              format probably, so in the event of some downtime I think you will find my Software
+              You guys have done a great job promoting Maven with all this popular creators in this
+              first phase, but, eventually, 'do it for you' courses, volume-wise, will probably be
+              the rarest format, so in the event of some downtime I think you will find my Software
               Engineering skills quite useful to optimize resources.
             </p>
 
@@ -382,12 +382,12 @@ function Maven() {
               Templates and structure
             </div>
             <p>
-              Maven is still in its early days, so it is to be expected that the structure that
+              Maven is still in it's early days, so it is to be expected that the structure that
               would fully facilitate saving time while building a course is not entirely in place,
               but this was the most common feedback.
             </p>
             <p>
-              I am sure this is something thats already on your mind, but I would love to help to
+              I am sure this is something that's already on your mind, but I would love to help to
               prototype some parts of the product and see what you are thinking in regards to this.
             </p>
             <div
@@ -405,10 +405,10 @@ function Maven() {
             </p>
             <p>
               I know that Lenny, because we kept talking, didn’t go through Wes's 6-week intro
-              course, so that probably could have made things different, but of course, this VIPs
-              won’t have the time to go through it mostly, so there is some potential to build
-              guides, documentation or other kind of artifacts that would serve as as backup for
-              them while creating the courses.
+              course, so that probably could have made things different, but of course, VIPs won’t
+              have the time to go through it mostly, so there is some potential to build guides,
+              documentation or other kind of artifacts that would serve as as backup for them while
+              creating the courses.
             </p>
             <div
               style={{
@@ -447,18 +447,19 @@ function Maven() {
               regarding Li Jin's course).
             </p>
             <p>
-              Of course, the time of this creators is quite valuable and you can’t realistically
-              expect them to sit through the assignments of every student, but I think there might
-              be potential here to explore some fixed setups where students play different roles in
-              group assignments and have software that will help creators go through the projects in
-              an efficient way and give feedback without using too much time.
+              Of course, the time of this type of creators is quite valuable and you can’t
+              realistically expect them to sit through the assignments of every student, but I think
+              there might be potential here to explore some fixed setups where students play
+              different roles in group assignments and have software that will help creators go
+              through the projects in an efficient way and give feedback without using too much
+              time.
             </p>
             <p>
               I also have a conversation pending with David Zelniker, who was the Course Designer
               for Greg Isenberg, he surely has a lot of valuable insight to share regarding the
-              experience of building a Maven CBC, so I am looking forward to that. I just didnt want
-              to wait so much to contact you guys because I figured a lot of people are going to be
-              applying.
+              experience of building a Maven CBC, so I am looking forward to that. I just didn't
+              want to wait so much to contact you guys because I figured a lot of people are going
+              to be applying.
             </p>
             <p>
               I also took time to approach certain creators with considerable audiencies to see if
@@ -469,7 +470,7 @@ function Maven() {
             </p>
             <p>
               There are many cool courses waiting to be created, and so many things to experiment
-              with at Maven, I cant think of a better place to be working right now.
+              with at Maven, I can't think of a better place to be working right now.
             </p>
             <p>
               If there is any other role you have in mind that I could be a fit for, other than
