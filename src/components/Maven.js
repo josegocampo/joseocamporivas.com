@@ -281,16 +281,16 @@ function Maven() {
                 color: 'rgba(117, 117, 117, 1)',
                 fontSize: '1.4rem',
                 lineHeight: '2.2rem',
-                marginTop: '15px',
+                marginTop: '20px',
               }}
             >
-              I talked with some of Maven's VIP creators and students to find out how we could
-              improve their experience while creating, running or attending to courses.
+              Making the case for why I would be a great candidate, and sharing my findings after
+              talking with some of Maven's students and VIP creators.
             </p>
             <div
               style={{
                 fontWeight: 600,
-                paddingTop: '20px',
+                paddingTop: '5px',
                 paddingBottom: '10px',
               }}
             >
@@ -473,8 +473,8 @@ function Maven() {
               with at Maven, I can't think of a better place to be working right now.
             </p>
             <p>
-              If there is any other role you have in mind that I could be a fit for, other than
-              Engineering, which Im open to discussing too, I would love to know.{' '}
+              If there is any other role you have in mind that I could be a fit for, I would love to
+              know. Of course Engineering is the obvious option, and Im avaliable for that too!
             </p>
             <p>Hope to talk to you soon.</p>
             <p>Best,</p>
